@@ -19,14 +19,6 @@ updating~
 把mixup方法引进graph，通过two branch聚合pair节点的属性和邻居节点信息（融合无法插值的拓扑结构的信息），通过two stage解决 conflicts between the Mixup on different node pairs，对graph-level的embedding进行插值以实现图分类
 
 - [ ] WSDM'21 GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks [[Paper](https://arxiv.org/abs/2103.08826)] [[Code](https://github.com/TianxiangZhao/GraphSmote)] [[Link](https://zhuanlan.zhihu.com/p/463233535)]
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
 
 ## 3.Self-Supervised Learning -- Contrastive
 
