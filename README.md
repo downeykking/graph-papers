@@ -55,9 +55,9 @@ updating~
 
 - [x] SimCLR v1: A Simple Framework for Contrastive Learning of Visual Representations [[Paper](https://arxiv.org/abs/2002.05709)] [[Code](https://github.com/google-research/simclr)] [[Link](./notes/SimCLRv1+GraphCL.md)]
 
-- [x] MoCo v2: Improved Baselines with Momentum Contrastive Learning [[Paper](https://arxiv.org/abs/2003.04297)] [[Code](https://github.com/facebookresearch/moco)] [Link]
+- [x] MoCo v2: Improved Baselines with Momentum Contrastive Learning [[Paper](https://arxiv.org/abs/2003.04297)] [[Code](https://github.com/facebookresearch/moco)] [[Link](./notes/MoCov2+SimCLRv2.md)]
 
-- [x] SimCLR v2: Big Self-Supervised Models are Strong Semi-Supervised Learners [[Paper](https://arxiv.org/abs/2006.10029)] [[Code](https://github.com/google-research/simclr)] [Link]
+- [x] SimCLR v2: Big Self-Supervised Models are Strong Semi-Supervised Learners [[Paper](https://arxiv.org/abs/2006.10029)] [[Code](https://github.com/google-research/simclr)] [[Link](./notes/MoCov2+SimCLRv2.md)]
 - [ ] SWaV
 - [ ] BYOL
 - [ ] SimSiam
