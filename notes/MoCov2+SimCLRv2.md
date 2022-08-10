@@ -22,7 +22,7 @@ pre-train的模型deep和wide很重要，越大精度越高；
 
 映射层很重要
 
-![image-20220810172211175](F:\typoraimg\image-20220810172211175.png)
+![image-20220810172211175](/typoraimg/image-20220810172211175.png)
 
 1.自监督预训练
 
@@ -40,18 +40,18 @@ projection变深（2FC+激活--->3FC，而且fine-tune的时候从FC第一层开
 
 第一部分蒸馏的交叉熵用soft-target来算
 
-![image-20220810172912580](F:\typoraimg\image-20220810172912580.png)
+![image-20220810172912580](/typoraimg/image-20220810172912580.png)
 
-![image-20220810173002784](F:\typoraimg\image-20220810173002784.png)
+![image-20220810173002784](/typoraimg/image-20220810173002784.png)
 
 结合有监督标签，Student模型在T=1的条件下的softmax输出和ground truth的cross entropy，
 
 最终蒸馏的loss为：
 
-![image-20220810173143948](F:\typoraimg\image-20220810173143948.png)
+![image-20220810173143948](/typoraimg/image-20220810173143948.png)
 
 具体实现：仅仅采用无标签数据进行蒸馏。作者采用了两种类型的蒸馏：自蒸馏与`Big-to-small`蒸馏
 
 labeld sets即使用hardtarget作为蒸馏交叉熵损失计算
 
-![image-20220810210212654](F:\typoraimg\image-20220810210212654.png)
+![image-20220810210212654](/typoraimg/image-20220810210212654.png)

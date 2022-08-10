@@ -1,8 +1,8 @@
 **论文名称：Momentum Contrast for Unsupervised Visual Representation Learning**
 
-**论文地址：**https://arxiv.org/abs/1911.05722
+**论文地址：https://arxiv.org/abs/1911.05722**
 
-**论文简介：**CV领域中利用对比方法实现自监督学习
+**论文简介：CV领域中利用对比方法实现自监督学习**
 
 前置知识
 
@@ -12,7 +12,7 @@ Self-Supervised Learning的目的一般是使用大量的无 label 的资料去 
 
 区分于BERT做填空题：给一个句子随机盖住 (mask掉) 一个token，输入这个BERT，期望它输出盖住的部分。这就是BERT进行自监督学习的做法，那么在 MoCo等论文中是如何做的呢？一个核心的词汇叫做：**Contrastive**。**即试图教机器区分相似和不相似的事物**
 
-![image-20220726213750149](.\typoraimg\image-20220726213750149.png)
+![image-20220726213750149](/typoraimg/image-20220726213750149.png)
 
 
 
@@ -28,7 +28,7 @@ Self-Supervised Learning的目的一般是使用大量的无 label 的资料去 
 
 ## Related Work
 
-![image-20220729141220757](.\typoraimg\image-20220729141220757.png)
+![image-20220729141220757](/typoraimg/image-20220729141220757.png)
 
 第一种：end to end
 
@@ -51,39 +51,39 @@ query 和 key 表示的 encoder 通过反向传播进行端到端更新
 
 将字典作为队列主要就是为了能将字典的大小和 mini-batch 分离开来，允许重用来自前面的 key ； 字典大小可以比典型的小批量大小大得多； 字典中的样本被逐步替换。最旧的key最新的query最不一致。（4096）
 
-![image-20220729141236661](.\typoraimg\image-20220729141236661.png)
+![image-20220729141236661](/typoraimg/image-20220729141236661.png)
 
 动量参数 m 较大时，$\theta_k$ 的更新缓慢，不过多的依赖于 $\theta_q$ 当前时刻的编码器，即不随着当前时刻的编码器快速改变，尽可能保证 字典里的 key 都是由相似的编码器生成的特征，保证特征的 consistent
 
 
 基于 large + consistent dynamic dictionary，MoCo 可以很好的无监督学习视觉特征。 
 
-![image-20220729141243606](.\typoraimg\image-20220729141243606.png)
+![image-20220729141243606](/typoraimg/image-20220729141243606.png)
 
-![image-20220729141249015](.\typoraimg\image-20220729141249015.png)
+![image-20220729141249015](/typoraimg/image-20220729141249015.png)
 
 ## Experiments
 
 确定代理任务：moco使用的预训练任务是instance discrimination任务。一张图片经过不同的数据增强为正例，和其他图片的不同数据增强为负例。
 
-![image-20220729141214706](.\typoraimg\image-20220729141214706.png)
+![image-20220729141214706](/typoraimg/image-20220729141214706.png)
 
 数据增强设置遵循的方法是：从一个随机调整大小的图像中提取224×224像素的裁剪，然后进行随机颜色抖动、随机水平翻转和随机灰度转换， 编码器可以是任意的卷积神经网络，fq和fk可以是完全相同的，也看可以是部分相同或不同的。本文用的是ResNet，其最后一个全连接层具有固定维数的输出——128维，这个输出由L2-范数进行归一化。
 
 作者对比了三种对比机制的方式，实验结果发现MoCo不仅能支持更大的字典大小，而且也能带来更优的效果：
 
-![image-20220729141257559](.\typoraimg\image-20220729141257559.png)
+![image-20220729141257559](/typoraimg/image-20220729141257559.png)
 
 同时对动量参数m进行消融实验，证明了动量更新的有效性。
 
-![image-20220729141303379](.\typoraimg\image-20220729141303379.png)
+![image-20220729141303379](/typoraimg/image-20220729141303379.png)
 
 同时对比了其他有监督自监督方法，成为了SOTA，说明了之间的有监督和自监督的GAP已经极为微小
 
-![image-20220729141310308](.\typoraimg\image-20220729141310308.png)
+![image-20220729141310308](/typoraimg/image-20220729141310308.png)
 
 ## Discussion and Conclusion
 
-![image-20220729141037188](.\typoraimg\image-20220729141037188.png)
+![image-20220729141037188](/typoraimg/image-20220729141037188.png)
 
-![image-20220729144219853](.\typoraimg\image-20220729144219853.png)
+![image-20220729144219853](/typoraimg/image-20220729144219853.png)
