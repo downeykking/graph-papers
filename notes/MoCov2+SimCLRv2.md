@@ -52,6 +52,6 @@ projection变深（2FC+激活--->3FC，而且fine-tune的时候从FC第一层开
 
 具体实现：仅仅采用无标签数据进行蒸馏。作者采用了两种类型的蒸馏：自蒸馏与`Big-to-small`蒸馏
 
-labeld sets即使用hardtarget作为蒸馏交叉熵损失计算
+labeld sets即使用hard-target作为蒸馏交叉熵损失计算
 
 ![image-20220810210212654](./typoraimg/image-20220810210212654.png)
