@@ -28,12 +28,12 @@ Updating~
 
 - [ ] WWW'21 GCA: Graph Contrastive Learning with Adaptive Augmentation [[Paper](https://arxiv.org/abs/2010.14945.pdf)] [[Code](https://github.com/CRIPAC-DIG/GCA)] [Link]
 - [ ] ICML'20 GRACE: Deep Graph Contrastive Representation Learning [[Paper](https://arxiv.org/abs/2006.04131.pdf)] [[Code](https://github.com/CRIPAC-DIG/GRACE)] [Link]
-- [ ] ICLR'20 InfoGraph: Unsupervised and Semi-Supervised Graph-level Representation Learning via Mutual Information Maximization [[Paper](https://arxiv.org/abs/1908.01000.pdf)] [[Code](https://github.com/fanyun-sun/InfoGraph)] [Link]
+- [ ] ICLR'20 InfoGraph: Unsupervised and Semi-Supervised Graph-level Representation Learning via Mutual Information Maximization [[Paper](https://arxiv.org/abs/1908.01000.pdf)] [[Code](https://github.com/fanyun-sun/InfoGraph)] [[Link](./InfoGraph.md)]
 - [x] ICLR'20 Strategies for Pre-training Graph Neural Networks [[Paper](https://arxiv.org/abs/1905.12265.pdf)] [[Code](https://github.com/snap-stanford/pretrain-gnns/)] [[Link](./notes/PretrainICLR20.md)]
 - [x] KDD'20 GCC: Graph Contrastive Coding for Graph Neural Network Pre-training [[Paper](https://arxiv.org/abs/2006.09963)] [[Code](https://github.com/THUDM/GCC)] [[Link](./notes/GCC.md)]
 
 - [x] NIPS'20 GraphCL: Graph Contrastive Learning with Augmentations [[Paper](https://arxiv.org/abs/2010.13902.pdf)] [[Code](https://github.com/Shen-Lab/GraphCL)] [[Link](./notes/SimCLRv1+GraphCL.md)]
-- [ ] ICLR'19 DGI: Deep Graph Infomax [[Paper](https://arxiv.org/abs/1809.10341)] [[Code](https://github.com/PetarV-/DGI)] [Link]
+- [x] ICLR'19 DGI: Deep Graph Infomax [[Paper](https://arxiv.org/abs/1809.10341)] [[Code](https://github.com/PetarV-/DGI)] [[Link](./notes/DGI.md)]
 
 
 

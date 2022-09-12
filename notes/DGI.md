@@ -138,3 +138,14 @@ DIM中负样本是用另一张图像作为fake，在图上用的是节点扰动(
 
 
 参考资料：
+
+https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence
+
+https://en.wikipedia.org/wiki/Mutual_information
+
+https://www.pianshen.com/article/2774692318/
+
+https://zhuanlan.zhihu.com/p/58682802
+
+https://zhuanlan.zhihu.com/p/46524857
+
