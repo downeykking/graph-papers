@@ -26,13 +26,17 @@ Updating~
 
 ## 3.Self-supervised Learning -- Contrastive
 
+- [ ] AAAA'22 SUGRL: Simple Unsupervised Graph Representation Learning [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-3999.MoY.pdf)] [[Code](https://github.com/YujieMo/SUGRL)] [Link]
+- [x] ICLR'21 Workshop BRGL: Bootstrapped Representation Learning on Graphs [[Paper](https://arxiv.org/abs/2102.06514v1)] [[Code](https://github.com/nerdslab/bgrl)] [[Link](./notes/BGRL.md)]
+- [ ] NIPS'21 CCA-SSG: From Canonical Correlation Analysis to Self-supervised Graph Neural Networks [[Paper](https://arxiv.org/abs/2106.12484)] [[Code](https://github.com/hengruizhang98/CCA-SSG)] [Link]
 - [ ] WWW'21 GCA: Graph Contrastive Learning with Adaptive Augmentation [[Paper](https://arxiv.org/abs/2010.14945.pdf)] [[Code](https://github.com/CRIPAC-DIG/GCA)] [Link]
-- [ ] ICML'20 GRACE: Deep Graph Contrastive Representation Learning [[Paper](https://arxiv.org/abs/2006.04131.pdf)] [[Code](https://github.com/CRIPAC-DIG/GRACE)] [Link]
-- [ ] ICLR'20 InfoGraph: Unsupervised and Semi-Supervised Graph-level Representation Learning via Mutual Information Maximization [[Paper](https://arxiv.org/abs/1908.01000.pdf)] [[Code](https://github.com/fanyun-sun/InfoGraph)] [[Link](./InfoGraph.md)]
+- [ ] ICML'20 MVGRL: Contrastive Multi-View Representation Learning on Graphs [[Paper]](https://arxiv.org/abs/2006.05582) [[Code](https://github.com/kavehhassani/mvgrl)] [Link]
+- [x] ICML'20 GRACE: Deep Graph Contrastive Representation Learning [[Paper](https://arxiv.org/abs/2006.04131.pdf)] [[Code](https://github.com/CRIPAC-DIG/GRACE)] [[Link](./notes/GRACE.md)]
+- [x] ICLR'20 InfoGraph: Unsupervised and Semi-Supervised Graph-level Representation Learning via Mutual Information Maximization [[Paper](https://arxiv.org/abs/1908.01000.pdf)] [[Code](https://github.com/fanyun-sun/InfoGraph)] [[Link](./notes/InfoGraph.md)]
 - [x] ICLR'20 Strategies for Pre-training Graph Neural Networks [[Paper](https://arxiv.org/abs/1905.12265.pdf)] [[Code](https://github.com/snap-stanford/pretrain-gnns/)] [[Link](./notes/PretrainICLR20.md)]
 - [x] KDD'20 GCC: Graph Contrastive Coding for Graph Neural Network Pre-training [[Paper](https://arxiv.org/abs/2006.09963)] [[Code](https://github.com/THUDM/GCC)] [[Link](./notes/GCC.md)]
-
 - [x] NIPS'20 GraphCL: Graph Contrastive Learning with Augmentations [[Paper](https://arxiv.org/abs/2010.13902.pdf)] [[Code](https://github.com/Shen-Lab/GraphCL)] [[Link](./notes/SimCLRv1+GraphCL.md)]
+- [ ] WWW'20 GMI: Graph Representation Learning via Graphical Mutual Information Maximization [[Paper](https://arxiv.org/abs/2002.01169)] [[Code](https://github.com/zpeng27/GMI)] [Link]
 - [x] ICLR'19 DGI: Deep Graph Infomax [[Paper](https://arxiv.org/abs/1809.10341)] [[Code](https://github.com/PetarV-/DGI)] [[Link](./notes/DGI.md)]
 
 
@@ -63,7 +67,7 @@ Updating~
 - [x] MoCo v2: Improved Baselines with Momentum Contrastive Learning [[Paper](https://arxiv.org/abs/2003.04297)] [[Code](https://github.com/facebookresearch/moco)] [[Link](./notes/MoCov2+SimCLRv2.md)]
 - [x] SimCLR v2: Big Self-Supervised Models are Strong Semi-Supervised Learners [[Paper](https://arxiv.org/abs/2006.10029)] [[Code](https://github.com/google-research/simclr)] [[Link](./notes/MoCov2+SimCLRv2.md)]
 - [x] SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments [[Paper](https://arxiv.org/abs/2006.09882)] [[Code](https://github.com/facebookresearch/swav)] [[Link](./notes/SwAV.md)]
-- [ ] BYOL
+- [x] BYOL: Bootstrap your own latent: A new approach to self-supervised Learning [[Paper](https://arxiv.org/abs/2006.07733)] [[Code](https://github.com/lucidrains/byol-pytorch)] [[Link](./notes/BGRL.md)]
 - [ ] SimSiam
 - [ ] MoCo v3: An Empirical Study of Training Self-Supervised Vision Transformers [[Paper](https://arxiv.org/abs/2104.02057)] [[Code](https://github.com/facebookresearch/moco-v3)] [Link]
 
