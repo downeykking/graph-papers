@@ -43,8 +43,8 @@ Updating~
 
 ## 4. Self-Supervised Learning -- Generative
 
+- [x] KDD'22 GraphMAE: Self-Supervised Masked Graph Autoencoders [[Paper](https://arxiv.org/abs/2205.10803)] [[Code](https://github.com/thudm/graphmae)] [[Link](./notes/graphmae.md)]
 - [ ] Arxiv'22 MaskGAE: Masked Graph Modeling Meets Graph Autoencoders [[Paper](https://arxiv.org/abs/2205.10053)] [[Code](https://github.com/EdisonLeeeee/MaskGAE)] [Link]
-- [ ] KDD'22 GraphMAE: Self-Supervised Masked Graph Autoencoders [[Paper](https://arxiv.org/abs/2205.10803)] [[Code](https://github.com/thudm/graphmae)] [Link]
 
 
 
