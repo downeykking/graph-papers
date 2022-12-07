@@ -2,17 +2,13 @@
 
 **论文地址：https://arxiv.org/abs/2206.01535**
 
-**论文简介：对现有的图对比方法进行重新审视 **
+**论文简介：对现有的图对比方法进行重新审视**
 
 ## Abstract
 
 1. 重新审视现有的图对比方法 (DGI和MVGRL), 引入了一种新颖有效的图对比学习范式, Group Discrimination (GD)。
 2. 基于GD, 提出了一种新的图自监督模型, GGD，训练速度和收敛速度都很快, 以及高可扩展性，在大图上也能比较好的工作。
 3. 进行了大量的实验（包含最大的图数据集obgn-paper100M），实验结果表明，该论文提出的方法达到了sota，而效率和占用的内存比基线要少得多。
-
-
-
-
 
 #### 1. Introduction
 
@@ -35,8 +31,6 @@ BGRL不用负样本，GBT基于Barlow-Twins，借用了冗余减少原理的思�
 ![image-20221129214818005](./typoraimg/image-20221129214818005.png)
 
 ![image-20221129214926487](./typoraimg/image-20221129214926487.png)
-
-
 
 #### 3. Method
 
@@ -71,8 +65,6 @@ DGI对比的是patch node和summary，但是得到的summary vector其实是一�
    最终版：其中 $\hat{y}_i=\operatorname{agg}\left(\mathbf{h}_i\right)$
 
 ![image-20221129221513694](./typoraimg/image-20221129221513694.png)
-
-
 
 DGI 真正所做的是：
 
