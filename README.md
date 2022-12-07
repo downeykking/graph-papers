@@ -1,4 +1,5 @@
 # graph-papers
+
 Graph, Self-Supervised Learning, Contrastive learning, Recsys Papers Reading Notes
 
 Updating~
@@ -26,13 +27,12 @@ Updating~
 
 ## 3.Self-supervised Learning -- Contrastive
 
-- [x] NIPS'22 Rethinking and Scaling Up Graph Contrastive Learning: An Extremely Efficient Approach with Group Discrimination [[Paper](https://arxiv.org/abs/2206.01535)] [[Code](https://github.com/zyzisastudyreallyhardguy/Graph-Group-Discrimination)] [[Link](./notes/GGD.md)]
 - [x] AAAA'22 SUGRL: Simple Unsupervised Graph Representation Learning [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-3999.MoY.pdf)] [[Code](https://github.com/YujieMo/SUGRL)] [[Link](./notes/SUGRL.md)]
 - [x] ICLR'21 Workshop BRGL: Bootstrapped Representation Learning on Graphs [[Paper](https://arxiv.org/abs/2102.06514v1)] [[Code](https://github.com/nerdslab/bgrl)] [[Link](./notes/BGRL.md)]
 - [ ] NIPS'21 CCA-SSG: From Canonical Correlation Analysis to Self-supervised Graph Neural Networks [[Paper](https://arxiv.org/abs/2106.12484)] [[Code](https://github.com/hengruizhang98/CCA-SSG)] [Link]
 - [x] WWW'21 GCA: Graph Contrastive Learning with Adaptive Augmentation [[Paper](https://arxiv.org/abs/2010.14945.pdf)] [[Code](https://github.com/CRIPAC-DIG/GCA)] [[Link](./notes/GCA.md)]
 - [x] ICML'20 MVGRL: Contrastive Multi-View Representation Learning on Graphs [[Paper]](https://arxiv.org/abs/2006.05582) [[Code](https://github.com/kavehhassani/mvgrl)] [[Link](./notes/MVGRL.md)]
-- [x] Workshop@ICML'20 GRACE: Deep Graph Contrastive Representation Learning [[Paper](https://arxiv.org/abs/2006.04131.pdf)] [[Code](https://github.com/CRIPAC-DIG/GRACE)] [[Link](./notes/GRACE.md)]
+- [x] ICML'20 GRACE: Deep Graph Contrastive Representation Learning [[Paper](https://arxiv.org/abs/2006.04131.pdf)] [[Code](https://github.com/CRIPAC-DIG/GRACE)] [[Link](./notes/GRACE.md)]
 - [x] ICLR'20 InfoGraph: Unsupervised and Semi-Supervised Graph-level Representation Learning via Mutual Information Maximization [[Paper](https://arxiv.org/abs/1908.01000.pdf)] [[Code](https://github.com/fanyun-sun/InfoGraph)] [[Link](./notes/InfoGraph.md)]
 - [x] ICLR'20 Strategies for Pre-training Graph Neural Networks [[Paper](https://arxiv.org/abs/1905.12265.pdf)] [[Code](https://github.com/snap-stanford/pretrain-gnns/)] [[Link](./notes/PretrainICLR20.md)]
 - [x] KDD'20 GCC: Graph Contrastive Coding for Graph Neural Network Pre-training [[Paper](https://arxiv.org/abs/2006.09963)] [[Code](https://github.com/THUDM/GCC)] [[Link](./notes/GCC.md)]
@@ -76,19 +76,19 @@ Updating~
 
 ## 8. Graph Model
 
-References: https://pytorch-geometric.readthedocs.io/en/2.1.0/modules/nn.html#convolutional-layers
+References: https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#convolutional-layers
 
-GCN
+- [ ] GCN
 
-Chebnet
+- [ ] Chebnet
 
-GraphSAGE
+- [ ] GraphSAGE
 
-GraphConv
+- [ ] GraphConv
 
-APPNP
+- [ ] APPNP
 
-
+- [x] NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification [[Paper](https://openreview.net/pdf?id=sMezXGG5So)] [[Code](https://github.com/qitianwu/NodeFormer)] [[Link](./notes/nodeformer.md)]
 
 [Paper] [Code] [Link]
 
