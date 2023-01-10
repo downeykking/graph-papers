@@ -11,8 +11,8 @@ Updating~
 - [x] TKDE'22 Graph Self-Supervised Learning: A Survey [[Paper](https://arxiv.org/abs/2103.00111)] [Code] [Link]
 - [x] TKDE'21 Self-supervised Learning on Graphs: Contrastive, Generative,or Predictive [[Paper](https://arxiv.org/abs/2105.07342)] [Code] [Link]
 - [x] TKDE'21 Self-supervised Learning: Generative or Contrastive [[Paper](https://arxiv.org/abs/2006.08218)] [Code] [Link]
-- [x] NIPS'21 Dataset An Empirical Study of Graph Contrastive Learning [[Paper](https://arxiv.org/abs/2109.01116)] [Code] [Link]
-- [ ] 
+- [x] Dataset@NIPS'21 An Empirical Study of Graph Contrastive Learning [[Paper](https://arxiv.org/abs/2109.01116)] [Code] [Link]
+- [ ] arXiv'21 A Survey of Transformers [[Paper](https://arxiv.org/abs/2106.04554)] [Code] [[Link](https://www.bilibili.com/video/BV1sU4y1G7CN/)]
 
 [Paper] [Code] [Link]
 
@@ -26,7 +26,6 @@ Updating~
 - [ ] WWW'15 LINE: Large-scale Information Network Embedding [[Paper](https://arxiv.org/abs/1503.03578)] [[Code](https://github.com/snowkylin/line)] [[Link](https://zhuanlan.zhihu.com/p/412787557)]
 - [x] KDD'14 DeepWalk: Online Learning of Social Representations [[Paper](https://arxiv.org/abs/1403.6652)] [[Code](https://github.com/phanein/deepwalk)] [[Link](https://zhuanlan.zhihu.com/p/412713441)]
 - [x] NeurIPS'13  Word2vec: Distributed Representations of Words and Phrases and their Compositionality [[Paper](https://arxiv.org/abs/1310.4546)] [[Code](https://github.com/brijml/mikolov_word2vec)] [[Link](https://zhuanlan.zhihu.com/p/413169135)]
-- [ ] 
 
 [Paper] [Code] [Link]
 
@@ -34,10 +33,10 @@ Updating~
 
 ## 3. Data Augment
 
-- [ ] ArXiv'22 Data Augmentation for Deep Graph Learning: A Survey [[Paper](https://arxiv.org/abs/2202.08235.pdf)] [No Code] [[Link](https://zhuanlan.zhihu.com/p/492146847)]
+- [ ] WWW'22 Augmentations in Graph Contrastive Learning: Current Methodological Flaws & Towards Better Practices [[Paper](https://arxiv.org/abs/2111.03220)] [Code] [Link]
+- [ ] arXiv'22 Data Augmentation for Deep Graph Learning: A Survey [[Paper](https://arxiv.org/abs/2202.08235.pdf)] [No Code] [[Link](https://zhuanlan.zhihu.com/p/492146847)]
 - [ ] WWW'21 Mixup for Node and Graph Classification [[Paper]](https://wangywust.github.io/Paper/2021mix.pdf) [[Code](https://github.com/vanoracai/MixupForGraph)] [[Link](https://zhuanlan.zhihu.com/p/377635385)]
 - [ ] WSDM'21 GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks [[Paper](https://arxiv.org/abs/2103.08826)] [[Code](https://github.com/TianxiangZhao/GraphSmote)] [[Link](https://zhuanlan.zhihu.com/p/463233535)]
-- [ ] 
 
 [Paper] [Code] [Link]
 
@@ -46,9 +45,12 @@ Updating~
 ## 4. Self-supervised Learning -- Contrastive
 
 - [ ] AAAI'23 SFA: Spectral Feature Augmentation for Graph Contrastive Learning and Beyond [[Paper](https://arxiv.org/abs/2212.01026)] [Code] [[Link](https://zhuanlan.zhihu.com/p/589174216)]
-- [ ] AAAI'22 AFGRL Augmentation-Free Self-Supervised Learning on Graphs [[Paper](https://arxiv.org/abs/2112.02472)] [[Code](https://github.com/Namkyeong/AFGRL)] [Link]
+- [ ] AAAI'22 AFGRL: Augmentation-Free Self-Supervised Learning on Graphs [[Paper](https://arxiv.org/abs/2112.02472)] [[Code](https://github.com/Namkyeong/AFGRL)] [Link]
 - [x] NIPS'22 GGD: Rethinking and Scaling Up Graph Contrastive Learning: An Extremely Efficient Approach with Group Discrimination [[Paper](https://arxiv.org/abs/2206.01535)] [[Code](https://github.com/zyzisastudyreallyhardguy/Graph-Group-Discrimination)] [[Link](./notes/GGD.md)]
 - [x] AAAA'22 SUGRL: Simple Unsupervised Graph Representation Learning [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-3999.MoY.pdf)] [[Code](https://github.com/YujieMo/SUGRL)] [[Link](./notes/SUGRL.md)]
+- [ ] TNNLS'22 Prototypical Graph Contrastive Learning [[Paper](https://arxiv.org/abs/2106.09645)] [[Code](https://github.com/ha-lins/PGCL)] [Link] 
+- [ ] ICML'21 JOAO: Graph Contrastive Learning Automated [[Paper](https://arxiv.org/abs/2106.07594)] [[Code](https://github.com/Shen-Lab/GraphCL_Automated)] [Link]
+- [ ] IJCAI'21 Multi-Scale Contrastive Siamese Networks for Self-Supervised Graph Representation Learning [[Paper](https://arxiv.org/abs/2105.05682)] [[Code](https://github.com/GRAND-Lab/MERIT)] [Link]
 - [x] ICLR'21 Workshop BRGL: Bootstrapped Representation Learning on Graphs [[Paper](https://arxiv.org/abs/2102.06514v1)] [[Code](https://github.com/nerdslab/bgrl)] [[Link](./notes/BGRL.md)]
 - [x] NIPS'21 CCA-SSG: From Canonical Correlation Analysis to Self-supervised Graph Neural Networks [[Paper](https://arxiv.org/abs/2106.12484)] [[Code](https://github.com/hengruizhang98/CCA-SSG)] [[Link](./notes/CCASSG.md)]
 - [x] WWW'21 GCA: Graph Contrastive Learning with Adaptive Augmentation [[Paper](https://arxiv.org/abs/2010.14945.pdf)] [[Code](https://github.com/CRIPAC-DIG/GCA)] [[Link](./notes/GCA.md)]
@@ -58,7 +60,6 @@ Updating~
 - [x] NIPS'20 GraphCL: Graph Contrastive Learning with Augmentations [[Paper](https://arxiv.org/abs/2010.13902.pdf)] [[Code](https://github.com/Shen-Lab/GraphCL)] [[Link](./notes/SimCLRv1+GraphCL.md)]
 - [ ] WWW'20 GMI: Graph Representation Learning via Graphical Mutual Information Maximization [[Paper](https://arxiv.org/abs/2002.01169)] [[Code](https://github.com/zpeng27/GMI)] [[Link](./notes/GMI.md)]
 - [x] ICLR'19 DGI: Deep Graph Infomax [[Paper](https://arxiv.org/abs/1809.10341)] [[Code](https://github.com/PetarV-/DGI)] [[Link](./notes/DGI.md)]
-- [ ] 
 
 [Paper] [Code] [Link]
 
@@ -67,8 +68,7 @@ Updating~
 ## 5. Self-Supervised Learning -- Generative
 
 - [x] KDD'22 GraphMAE: Self-Supervised Masked Graph Autoencoders [[Paper](https://arxiv.org/abs/2205.10803)] [[Code](https://github.com/thudm/graphmae)] [[Link](./notes/graphmae.md)]
-- [ ] Arxiv'22 MaskGAE: Masked Graph Modeling Meets Graph Autoencoders [[Paper](https://arxiv.org/abs/2205.10053)] [[Code](https://github.com/EdisonLeeeee/MaskGAE)] [Link]
-- [ ] 
+- [ ] arXiv'22 MaskGAE: Masked Graph Modeling Meets Graph Autoencoders [[Paper](https://arxiv.org/abs/2205.10053)] [[Code](https://github.com/EdisonLeeeee/MaskGAE)] [Link]
 
 [Paper] [Code] [Link]
 
@@ -78,7 +78,6 @@ Updating~
 
 - [x] ICLR'20 Strategies for Pre-training Graph Neural Networks [[Paper](https://arxiv.org/abs/1905.12265.pdf)] [[Code](https://github.com/snap-stanford/pretrain-gnns/)] [[Link](./notes/PretrainICLR20.md)]
 - [x] KDD'20 GCC: Graph Contrastive Coding for Graph Neural Network Pre-training [[Paper](https://arxiv.org/abs/2006.09963)] [[Code](https://github.com/THUDM/GCC)] [[Link](./notes/GCC.md)]
-- [ ] 
 
 [Paper] [Code] [Link]
 
@@ -87,7 +86,6 @@ Updating~
 ## 7. Heterogeneous Graph
 
 - [ ] WWW'20 Heterogeneous Graph Transformer [[Paper](https://arxiv.org/abs/2003.01332)] [[Code](https://github.com/acbull/pyHGT)] [Link]
-- [ ] 
 
 [Paper] [Code] [Link]
 
@@ -96,7 +94,6 @@ Updating~
 ## 8. Graph Anomaly Detection
 
 - [ ] ICML'22 Rethinking Graph Neural Networks for Anomaly Detection [[Paper](https://arxiv.org/abs/2205.15508)] [[Code](https://github.com/squareroot3/rethinking-anomaly-detection)] [Link]
-- [ ] 
 
 [Paper] [Code] [Link]
 
@@ -113,7 +110,7 @@ Updating~
 - [ ] SimSiam: Exploring Simple Siamese Representation Learning [[Paper](https://arxiv.org/abs/2011.10566)] [[Code](https://github.com/facebookresearch/simsiam)] [Link]
 - [ ] MoCo v3: An Empirical Study of Training Self-Supervised Vision Transformers [[Paper](https://arxiv.org/abs/2104.02057)] [[Code](https://github.com/facebookresearch/moco-v3)] [Link]
 - [ ] Barlow Twins: Self-Supervised Learning via Redundancy Reduction [[Paper](https://arxiv.org/abs/2103.03230)] [[Code](https://github.com/facebookresearch/barlowtwins)] [Link] 
-- [ ] 
+- [ ] VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning [[Paper](https://arxiv.org/abs/2105.04906)] [[Code](https://github.com/facebookresearch/vicreg)] [Link]
 
 [Paper] [Code] [Link]
 
@@ -123,7 +120,6 @@ Updating~
 
 - [ ] KDD'20 Embedding-based Retrieval in Facebook Search [[Paper](https://dl.acm.org/doi/pdf/10.1145/3394486.3403305)] [Code] [[Link](https://www.zhihu.com/question/315120636/answer/1687203383)]
 - [ ] KDD'18 PinSAGE: Graph Convolutional Neural Networks for Web-Scale Recommender Systems [[Paper](https://arxiv.org/abs/1806.01973)] [Code] [[Link](https://zhuanlan.zhihu.com/p/275942839)]
-- [ ] 
 
 [Paper] [Code] [Link]
 
@@ -140,7 +136,6 @@ References: https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#c
 - [ ] APPNP
 - [ ] GAT
 - [ ] Transformer
-- [ ] 
 
 [Paper] [Code] [Link]
 
@@ -151,6 +146,5 @@ References: https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#c
 - [ ] TPAMI'22 Pyramid Pooling Transformer for Scene Understanding [[Paper](https://github.com/yuhuan-wu/P2T)] [[Code](https://github.com/yuhuan-wu/P2T)] [[Link](https://mp.weixin.qq.com/s/7qXtyFaIiYny0eUqBbPraQ)]
 - [x] NIPS'22 NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification [[Paper](https://openreview.net/pdf?id=sMezXGG5So)] [[Code](https://github.com/qitianwu/NodeFormer)] [[Link](./notes/nodeformer.md)]
 - [ ] WWW'22 Universal Graph Transformer Self-Attention Networks [[Paper](https://arxiv.org/abs/1909.11855)] [[Code](https://github.com/daiquocnguyen/Graph-Transformer)] [Link]
-- [ ] 
 
 [Paper] [Code] [Link]
