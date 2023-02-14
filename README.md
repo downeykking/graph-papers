@@ -143,8 +143,22 @@ References: https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#c
 
 ## 12. Transformer
 
+#### nlp:
+
+#### cv:
+
 - [ ] TPAMI'22 Pyramid Pooling Transformer for Scene Understanding [[Paper](https://github.com/yuhuan-wu/P2T)] [[Code](https://github.com/yuhuan-wu/P2T)] [[Link](https://mp.weixin.qq.com/s/7qXtyFaIiYny0eUqBbPraQ)]
+- [ ] ICML'21 ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision [[Paper](https://arxiv.org/abs/2102.03334)] [[Code](https://github.com/dandelin/vilt)] [Link]
+- [ ] ICLR'21 ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [[Paper](https://arxiv.org/abs/2010.11929)] [[Code](https://github.com/google-research/vision_transformer)] [Link] 
+- [ ] ICCV'21 Swin Transformer: Hierarchical Vision Transformer using Shifted Windows [[Paper](https://arxiv.org/abs/2103.14030)] [[Code](https://github.com/microsoft/Swin-Transformer)] [Link]
+- [ ] ICCV'20 DETR: End-to-End Object Detection with Transformers [[Paper](https://arxiv.org/abs/2005.12872v3)] [[Code](https://github.com/facebookresearch/detr)] [Link]
+
+#### graph:
+
+- [ ] NIPS'22 Hierarchical Graph Transformer with Adaptive Node Sampling [[Paper](https://arxiv.org/abs/2210.03930)] [[Code](https://github.com/zaixizhang/ANS-GT)] [Link]
+- [ ] NIPS'22 Recipe for a General, Powerful, Scalable Graph Transformer [[Paper](https://arxiv.org/pdf/2205.12454.pdf)] [Code] [Link]
 - [x] NIPS'22 NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification [[Paper](https://openreview.net/pdf?id=sMezXGG5So)] [[Code](https://github.com/qitianwu/NodeFormer)] [[Link](./notes/nodeformer.md)]
 - [ ] WWW'22 Universal Graph Transformer Self-Attention Networks [[Paper](https://arxiv.org/abs/1909.11855)] [[Code](https://github.com/daiquocnguyen/Graph-Transformer)] [Link]
+- [x] Workshop@AAAI'21 A Generalization of Transformer Networks to Graphs [[Paper](https://arxiv.org/abs/2012.09699)] [[Code](https://github.com/graphdeeplearning/graphtransformer)] [[Link](./notes/basegraphtransformer)]
 
 [Paper] [Code] [Link]
