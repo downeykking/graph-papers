@@ -1,6 +1,6 @@
 # graph-papers
 
-Graph, Self-Supervised Learning, Contrastive learning, Recsys, Transformer Papers Reading Notes.
+Graph, Self-Supervised Learning, Contrastive Learning, Recsys, Transformer Papers Reading Notes.
 
 Updating~
 
@@ -36,7 +36,7 @@ Updating~
 - [ ] WWW'22 Augmentations in Graph Contrastive Learning: Current Methodological Flaws & Towards Better Practices [[Paper](https://arxiv.org/abs/2111.03220)] [Code] [Link]
 - [ ] arXiv'22 Data Augmentation for Deep Graph Learning: A Survey [[Paper](https://arxiv.org/abs/2202.08235.pdf)] [No Code] [[Link](https://zhuanlan.zhihu.com/p/492146847)]
 - [ ] WWW'21 Mixup for Node and Graph Classification [[Paper]](https://wangywust.github.io/Paper/2021mix.pdf) [[Code](https://github.com/vanoracai/MixupForGraph)] [[Link](https://zhuanlan.zhihu.com/p/377635385)]
-- [ ] WSDM'21 GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks [[Paper](https://arxiv.org/abs/2103.08826)] [[Code](https://github.com/TianxiangZhao/GraphSmote)] [[Link](https://zhuanlan.zhihu.com/p/463233535)]
+- [x] WSDM'21 GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks [[Paper](https://arxiv.org/abs/2103.08826)] [[Code](https://github.com/TianxiangZhao/GraphSmote)] [[Link](https://zhuanlan.zhihu.com/p/463233535)]
 
 [Paper] [Code] [Link]
 
@@ -102,6 +102,12 @@ Updating~
 
 ## 9. NLP AND CV
 
+- [ ] InsDis: Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination [[Paper](https://arxiv.org/abs/1805.01978)] [[Code](https://github.com/zhirongw/lemniscate.pytorch)] [Link]
+- [ ] Deep Infomax: Learning deep representations by mutual information estimation and maximization [[Paper](https://arxiv.org/abs/1808.06670)] [Code] [Link]
+- [ ] CPC: Representation Learning with Contrastive Predictive Coding [[Paper](https://arxiv.org/pdf/1807.03748.pdf)] [Code] [Link]
+- [ ] CMC: Contrastive Multiview Coding [[Paper](https://arxiv.org/abs/1906.05849)] [[Code](https://github.com/HobbitLong/CMC)] [Link]
+- [ ] InfoMin: What Makes for Good Views for Contrastive Learning? [[Paper](https://arxiv.org/abs/2005.10243)] [[Code](https://github.com/HobbitLong/PyContrast)] [[Link](https://hobbitlong.github.io/InfoMin/)]
+- [ ] Prototypical Contrastive Learning of Unsupervised Representations [[Paper](https://arxiv.org/abs/2005.04966)] [[Code](https://github.com/salesforce/PCL)] [Link]
 - [x] MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning [[Paper](https://arxiv.org/abs/1911.05722)] [[Code](https://github.com/facebookresearch/moco)] [[Link](./notes/MoCov1.md)]
 - [x] SimCLR v1: A Simple Framework for Contrastive Learning of Visual Representations [[Paper](https://arxiv.org/abs/2002.05709)] [[Code](https://github.com/google-research/simclr)] [[Link](./notes/SimCLRv1+GraphCL.md)]
 - [x] MoCo v2: Improved Baselines with Momentum Contrastive Learning [[Paper](https://arxiv.org/abs/2003.04297)] [[Code](https://github.com/facebookresearch/moco)] [[Link](./notes/MoCov2+SimCLRv2.md)]
@@ -149,12 +155,15 @@ References: https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#c
 #### cv:
 
 - [ ] TPAMI'22 Pyramid Pooling Transformer for Scene Understanding [[Paper](https://github.com/yuhuan-wu/P2T)] [[Code](https://github.com/yuhuan-wu/P2T)] [[Link](https://mp.weixin.qq.com/s/7qXtyFaIiYny0eUqBbPraQ)]
+- [ ] AAAI'22 Less is More: Pay Less Attention in Vision Transformers [[Paper](https://arxiv.org/pdf/2105.14217.pdf)] [[Code](https://github.com/ziplab/LIT)] [Link]
 - [ ] ICML'21 ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision [[Paper](https://arxiv.org/abs/2102.03334)] [[Code](https://github.com/dandelin/vilt)] [Link]
 - [ ] ICLR'21 ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [[Paper](https://arxiv.org/abs/2010.11929)] [[Code](https://github.com/google-research/vision_transformer)] [Link] 
 - [ ] ICCV'21 Swin Transformer: Hierarchical Vision Transformer using Shifted Windows [[Paper](https://arxiv.org/abs/2103.14030)] [[Code](https://github.com/microsoft/Swin-Transformer)] [Link]
 - [ ] ICCV'20 DETR: End-to-End Object Detection with Transformers [[Paper](https://arxiv.org/abs/2005.12872v3)] [[Code](https://github.com/facebookresearch/detr)] [Link]
 
-#### graph:
+#### graph: 
+
+Papers about graph transformers: [awesome-graph-transformer](https://github.com/ChandlerBang/awesome-graph-transformer)
 
 - [ ] NIPS'22 Hierarchical Graph Transformer with Adaptive Node Sampling [[Paper](https://arxiv.org/abs/2210.03930)] [[Code](https://github.com/zaixizhang/ANS-GT)] [Link]
 - [ ] NIPS'22 Recipe for a General, Powerful, Scalable Graph Transformer [[Paper](https://arxiv.org/pdf/2205.12454.pdf)] [Code] [Link]
