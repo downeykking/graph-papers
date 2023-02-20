@@ -44,6 +44,10 @@ Updating~
 
 ## 4. Self-supervised Learning -- Contrastive
 
+#### Methods
+
+- [ ] AAAI'23 Beyond Smoothing: Unsupervised Graph Representation Learning with Edge Heterophily Discriminating [[Paper](https://arxiv.org/pdf/2211.14065.pdf)] [[Code](https://github.com/yixinliu233/GREET)] [Link]
+- [ ] AAAI'23 MA-GCL: Model Augmentation Tricks for Graph Contrastive Learning [[Paper](https://arxiv.org/pdf/2212.07035.pdf)] [[Code](https://github.com/GXM1141/MA-GCL)] [Link]
 - [ ] AAAI'23 SFA: Spectral Feature Augmentation for Graph Contrastive Learning and Beyond [[Paper](https://arxiv.org/abs/2212.01026)] [Code] [[Link](https://zhuanlan.zhihu.com/p/589174216)]
 - [ ] AAAI'22 AFGRL: Augmentation-Free Self-Supervised Learning on Graphs [[Paper](https://arxiv.org/abs/2112.02472)] [[Code](https://github.com/Namkyeong/AFGRL)] [Link]
 - [x] NIPS'22 GGD: Rethinking and Scaling Up Graph Contrastive Learning: An Extremely Efficient Approach with Group Discrimination [[Paper](https://arxiv.org/abs/2206.01535)] [[Code](https://github.com/zyzisastudyreallyhardguy/Graph-Group-Discrimination)] [[Link](./notes/GGD.md)]
@@ -61,6 +65,12 @@ Updating~
 - [ ] NIPS'20 Supervised Contrastive Learning [[Paper](https://arxiv.org/pdf/2004.11362.pdf)] [[Code](https://github.com/HobbitLong/SupContrast)] [[Link](https://zhuanlan.zhihu.com/p/136332151)]
 - [ ] WWW'20 GMI: Graph Representation Learning via Graphical Mutual Information Maximization [[Paper](https://arxiv.org/abs/2002.01169)] [[Code](https://github.com/zpeng27/GMI)] [[Link](./notes/GMI.md)]
 - [x] ICLR'19 DGI: Deep Graph Infomax [[Paper](https://arxiv.org/abs/1809.10341)] [[Code](https://github.com/PetarV-/DGI)] [[Link](./notes/DGI.md)]
+
+### Theories:
+
+- [ ] ICML'21 Understanding Self-Supervised Learning Dynamics without Contrastive Pairs [[Paper](https://arxiv.org/abs/2102.06810)] [[Code](https://github.com/facebookresearch/luckmatters/tree/master/ssl)] [[Link](https://zhuanlan.zhihu.com/p/384818506)]
+- [ ] CVPR'21 Understanding the Behaviour of Contrastive Loss [[Paper](https://arxiv.org/pdf/2012.09740.pdf)] [Code] [[Link](https://zhuanlan.zhihu.com/p/357071960)]
+- [ ] ICML'20 Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere [[Paper](https://arxiv.org/abs/2005.10242)] [Code] [[Link1](https://mp.weixin.qq.com/s/MteoquDoks4kuVPA9jzT_Q)] [[Link2](https://blog.csdn.net/c2a2o2/article/details/117898108)]
 
 [Paper] [Code] [Link]
 
@@ -165,6 +175,7 @@ References: https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#c
 
 Papers about graph transformers: [awesome-graph-transformer](https://github.com/ChandlerBang/awesome-graph-transformer)
 
+- [ ] ICLR'23 NAGphormer: A Tokenized Graph Transformer for Node Classification in Large Graphs [[Paper](https://openreview.net/forum?id=8KYeilT3Ow)] [[Code](https://github.com/JHL-HUST/NAGphormer)] [Link]
 - [ ] NIPS'22 Hierarchical Graph Transformer with Adaptive Node Sampling [[Paper](https://arxiv.org/abs/2210.03930)] [[Code](https://github.com/zaixizhang/ANS-GT)] [Link]
 - [ ] NIPS'22 Recipe for a General, Powerful, Scalable Graph Transformer [[Paper](https://arxiv.org/pdf/2205.12454.pdf)] [Code] [Link]
 - [x] NIPS'22 NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification [[Paper](https://openreview.net/pdf?id=sMezXGG5So)] [[Code](https://github.com/qitianwu/NodeFormer)] [[Link](./notes/nodeformer.md)]
