@@ -68,9 +68,10 @@ Updating~
 
 ### Theories:
 
+- [x] ECCV'22 Decoupled Contrastive Learning [[Paper](https://arxiv.org/abs/2110.06848)] [Code] [[Link](https://zhuanlan.zhihu.com/p/435349353)]
 - [ ] ICML'21 Understanding Self-Supervised Learning Dynamics without Contrastive Pairs [[Paper](https://arxiv.org/abs/2102.06810)] [[Code](https://github.com/facebookresearch/luckmatters/tree/master/ssl)] [[Link](https://zhuanlan.zhihu.com/p/384818506)]
 - [ ] CVPR'21 Understanding the Behaviour of Contrastive Loss [[Paper](https://arxiv.org/pdf/2012.09740.pdf)] [Code] [[Link](https://zhuanlan.zhihu.com/p/357071960)]
-- [ ] ICML'20 Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere [[Paper](https://arxiv.org/abs/2005.10242)] [Code] [[Link1](https://mp.weixin.qq.com/s/MteoquDoks4kuVPA9jzT_Q)] [[Link2](https://blog.csdn.net/c2a2o2/article/details/117898108)]
+- [x] ICML'20 Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere [[Paper](https://arxiv.org/abs/2005.10242)] [[Code](https://github.com/SsnL/align_uniform)] [[Link1](https://mp.weixin.qq.com/s/MteoquDoks4kuVPA9jzT_Q)] [[Link2](https://blog.csdn.net/c2a2o2/article/details/117898108)]
 
 [Paper] [Code] [Link]
 
@@ -112,6 +113,8 @@ Updating~
 
 ## 9. NLP AND CV
 
+#### Computer Vision：
+
 - [ ] InsDis: Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination [[Paper](https://arxiv.org/abs/1805.01978)] [[Code](https://github.com/zhirongw/lemniscate.pytorch)] [Link]
 - [ ] Deep Infomax: Learning deep representations by mutual information estimation and maximization [[Paper](https://arxiv.org/abs/1808.06670)] [Code] [Link]
 - [ ] CPC: Representation Learning with Contrastive Predictive Coding [[Paper](https://arxiv.org/pdf/1807.03748.pdf)] [Code] [Link]
@@ -128,6 +131,10 @@ Updating~
 - [ ] MoCo v3: An Empirical Study of Training Self-Supervised Vision Transformers [[Paper](https://arxiv.org/abs/2104.02057)] [[Code](https://github.com/facebookresearch/moco-v3)] [Link]
 - [ ] Barlow Twins: Self-Supervised Learning via Redundancy Reduction [[Paper](https://arxiv.org/abs/2103.03230)] [[Code](https://github.com/facebookresearch/barlowtwins)] [Link] 
 - [ ] VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning [[Paper](https://arxiv.org/abs/2105.04906)] [[Code](https://github.com/facebookresearch/vicreg)] [Link]
+
+#### Natural Language Processing：
+
+- [x] SimCSE: Simple Contrastive Learning of Sentence Embeddings [[Paper](https://arxiv.org/abs/2104.08821)] [[Code](https://github.com/princeton-nlp/SimCSE)] [[Link](https://zhuanlan.zhihu.com/p/368353121)]
 
 [Paper] [Code] [Link]
 

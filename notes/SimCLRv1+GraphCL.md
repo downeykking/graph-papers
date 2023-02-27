@@ -28,9 +28,9 @@
 
 因此可行的优化方向为：增加view难度、增加更多负例、提升encoder表现等
 
+Loss优化目标推导：
 
-
-
+<img src="./typoraimg/ntxent.jpg" alt="ntxent" style="zoom:67%;" />
 
 **论文名称：GraphCL: Graph Contrastive Learning with Augmentations**
 
