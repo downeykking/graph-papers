@@ -46,12 +46,13 @@ Updating~
 
 #### Methods
 
+- [ ] ICLR'23 Link Prediction with Non-Contrastive Learning [[Paper](https://arxiv.org/abs/2211.14394)] [[Code](https://github.com/snap-research/non-contrastive-link-prediction)] [Link]
 - [ ] AAAI'23 Beyond Smoothing: Unsupervised Graph Representation Learning with Edge Heterophily Discriminating [[Paper](https://arxiv.org/pdf/2211.14065.pdf)] [[Code](https://github.com/yixinliu233/GREET)] [Link]
 - [ ] AAAI'23 MA-GCL: Model Augmentation Tricks for Graph Contrastive Learning [[Paper](https://arxiv.org/pdf/2212.07035.pdf)] [[Code](https://github.com/GXM1141/MA-GCL)] [Link]
 - [ ] AAAI'23 SFA: Spectral Feature Augmentation for Graph Contrastive Learning and Beyond [[Paper](https://arxiv.org/abs/2212.01026)] [Code] [[Link](https://zhuanlan.zhihu.com/p/589174216)]
 - [ ] AAAI'22 AFGRL: Augmentation-Free Self-Supervised Learning on Graphs [[Paper](https://arxiv.org/abs/2112.02472)] [[Code](https://github.com/Namkyeong/AFGRL)] [Link]
 - [x] NIPS'22 GGD: Rethinking and Scaling Up Graph Contrastive Learning: An Extremely Efficient Approach with Group Discrimination [[Paper](https://arxiv.org/abs/2206.01535)] [[Code](https://github.com/zyzisastudyreallyhardguy/Graph-Group-Discrimination)] [[Link](./notes/GGD.md)]
-- [x] AAAA'22 SUGRL: Simple Unsupervised Graph Representation Learning [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-3999.MoY.pdf)] [[Code](https://github.com/YujieMo/SUGRL)] [[Link](./notes/SUGRL.md)]
+- [x] AAAA'22 SUGRL: Simple Unsupervised Graph Representation Learning [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-3999.MoY.pdf)] [[Code](https://github.com/YujieMo/SUGRL)] [[Link1](./notes/SUGRL.md)] [[Link2](https://zhuanlan.zhihu.com/p/493269474)]
 - [ ] TNNLS'22 Prototypical Graph Contrastive Learning [[Paper](https://arxiv.org/abs/2106.09645)] [[Code](https://github.com/ha-lins/PGCL)] [Link] 
 - [ ] ICML'21 JOAO: Graph Contrastive Learning Automated [[Paper](https://arxiv.org/abs/2106.07594)] [[Code](https://github.com/Shen-Lab/GraphCL_Automated)] [Link]
 - [ ] IJCAI'21 Multi-Scale Contrastive Siamese Networks for Self-Supervised Graph Representation Learning [[Paper](https://arxiv.org/abs/2105.05682)] [[Code](https://github.com/GRAND-Lab/MERIT)] [Link]
@@ -70,6 +71,7 @@ Updating~
 
 - [ ] CVPR'22 Node Representation Learning in Graph via Node-to-Neighbourhood Mutual Information Maximization [[Paper](https://arxiv.org/abs/2203.12265)] [[Code](https://github.com/dongwei156/n2n)] [Link]
 - [x] ECCV'22 Decoupled Contrastive Learning [[Paper](https://arxiv.org/abs/2110.06848)] [Code] [[Link](https://zhuanlan.zhihu.com/p/435349353)]
+- [ ] ICLR'21 What Should Not Be Contrastive in Contrastive Learning [[Paper](https://arxiv.org/abs/2008.05659)] [Code] [Link]
 - [ ] ICML'21 Understanding Self-Supervised Learning Dynamics without Contrastive Pairs [[Paper](https://arxiv.org/abs/2102.06810)] [[Code](https://github.com/facebookresearch/luckmatters/tree/master/ssl)] [[Link](https://zhuanlan.zhihu.com/p/384818506)]
 - [ ] CVPR'21 Understanding the Behaviour of Contrastive Loss [[Paper](https://arxiv.org/pdf/2012.09740.pdf)] [Code] [[Link](https://zhuanlan.zhihu.com/p/357071960)]
 - [x] ICML'20 Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere [[Paper](https://arxiv.org/abs/2005.10242)] [[Code](https://github.com/SsnL/align_uniform)] [[Link1](https://mp.weixin.qq.com/s/MteoquDoks4kuVPA9jzT_Q)] [[Link2](https://blog.csdn.net/c2a2o2/article/details/117898108)]
@@ -120,7 +122,7 @@ Updating~
 - [ ] Deep Infomax: Learning deep representations by mutual information estimation and maximization [[Paper](https://arxiv.org/abs/1808.06670)] [Code] [Link]
 - [ ] CPC: Representation Learning with Contrastive Predictive Coding [[Paper](https://arxiv.org/pdf/1807.03748.pdf)] [Code] [Link]
 - [ ] CMC: Contrastive Multiview Coding [[Paper](https://arxiv.org/abs/1906.05849)] [[Code](https://github.com/HobbitLong/CMC)] [Link]
-- [ ] InfoMin: What Makes for Good Views for Contrastive Learning? [[Paper](https://arxiv.org/abs/2005.10243)] [[Code](https://github.com/HobbitLong/PyContrast)] [[Link](https://hobbitlong.github.io/InfoMin/)]
+- [ ] InfoMin: What Makes for Good Views for Contrastive Learning? [[Paper](https://arxiv.org/abs/2005.10243)] [[Code](https://github.com/HobbitLong/PyContrast)] [[Link1](https://hobbitlong.github.io/InfoMin/)] [[Link2](https://zhuanlan.zhihu.com/p/150736322)]
 - [ ] Prototypical Contrastive Learning of Unsupervised Representations [[Paper](https://arxiv.org/abs/2005.04966)] [[Code](https://github.com/salesforce/PCL)] [Link]
 - [x] MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning [[Paper](https://arxiv.org/abs/1911.05722)] [[Code](https://github.com/facebookresearch/moco)] [[Link](./notes/MoCov1.md)]
 - [x] SimCLR v1: A Simple Framework for Contrastive Learning of Visual Representations [[Paper](https://arxiv.org/abs/2002.05709)] [[Code](https://github.com/google-research/simclr)] [[Link](./notes/SimCLRv1+GraphCL.md)]
@@ -133,6 +135,9 @@ Updating~
 - [ ] Barlow Twins: Self-Supervised Learning via Redundancy Reduction [[Paper](https://arxiv.org/abs/2103.03230)] [[Code](https://github.com/facebookresearch/barlowtwins)] [Link] 
 - [ ] VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning [[Paper](https://arxiv.org/abs/2105.04906)] [[Code](https://github.com/facebookresearch/vicreg)] [Link]
 - [x] MEC: Self-Supervised Learning via Maximum Entropy Coding [[Paper](https://arxiv.org/abs/2210.11464)] [[Code](https://github.com/xinliu20/mec)] [Link]
+- [ ] ICCV'21 Weakly Supervised Contrastive Learning [[Paper](https://arxiv.org/abs/2110.04770)] [[Code](https://github.com/kyle-1997/WCL)] [Link]
+- [ ] PMLR'21 Dissecting Supervised Contrastive Learning [[Paper](https://arxiv.org/abs/2102.08817)] [[Code](https://github.com/plus-rkwitt/py_supcon_vs_ce)] [Link]
+- [ ] CVPR'22 Targeted Supervised Contrastive Learning for Long-Tailed Recognition [[Paper](https://arxiv.org/abs/2111.13998)] [[Code](https://github.com/lth14/targeted-supcon)] [Link]
 
 #### Natural Language Processing：
 
