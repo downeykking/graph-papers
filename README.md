@@ -62,12 +62,13 @@ Updating~
 - [x] Workshop@ICML'20 GRACE: Deep Graph Contrastive Representation Learning [[Paper](https://arxiv.org/abs/2006.04131.pdf)] [[Code](https://github.com/CRIPAC-DIG/GRACE)] [[Link](./notes/GRACE.md)]
 - [x] ICLR'20 InfoGraph: Unsupervised and Semi-Supervised Graph-level Representation Learning via Mutual Information Maximization [[Paper](https://arxiv.org/abs/1908.01000.pdf)] [[Code](https://github.com/fanyun-sun/InfoGraph)] [[Link](./notes/InfoGraph.md)]
 - [x] NIPS'20 GraphCL: Graph Contrastive Learning with Augmentations [[Paper](https://arxiv.org/abs/2010.13902.pdf)] [[Code](https://github.com/Shen-Lab/GraphCL)] [[Link](./notes/SimCLRv1+GraphCL.md)]
-- [ ] NIPS'20 Supervised Contrastive Learning [[Paper](https://arxiv.org/pdf/2004.11362.pdf)] [[Code](https://github.com/HobbitLong/SupContrast)] [[Link](https://zhuanlan.zhihu.com/p/136332151)]
-- [ ] WWW'20 GMI: Graph Representation Learning via Graphical Mutual Information Maximization [[Paper](https://arxiv.org/abs/2002.01169)] [[Code](https://github.com/zpeng27/GMI)] [[Link](./notes/GMI.md)]
+- [x] NIPS'20 Supervised Contrastive Learning [[Paper](https://arxiv.org/pdf/2004.11362.pdf)] [[Code](https://github.com/HobbitLong/SupContrast)] [[Link1](https://zhuanlan.zhihu.com/p/136332151)] [[Link2](https://zhuanlan.zhihu.com/p/265529937)]
+- [x] WWW'20 GMI: Graph Representation Learning via Graphical Mutual Information Maximization [[Paper](https://arxiv.org/abs/2002.01169)] [[Code](https://github.com/zpeng27/GMI)] [[Link](./notes/GMI.md)]
 - [x] ICLR'19 DGI: Deep Graph Infomax [[Paper](https://arxiv.org/abs/1809.10341)] [[Code](https://github.com/PetarV-/DGI)] [[Link](./notes/DGI.md)]
 
 ### Theories:
 
+- [ ] CVPR'22 Node Representation Learning in Graph via Node-to-Neighbourhood Mutual Information Maximization [[Paper](https://arxiv.org/abs/2203.12265)] [[Code](https://github.com/dongwei156/n2n)] [Link]
 - [x] ECCV'22 Decoupled Contrastive Learning [[Paper](https://arxiv.org/abs/2110.06848)] [Code] [[Link](https://zhuanlan.zhihu.com/p/435349353)]
 - [ ] ICML'21 Understanding Self-Supervised Learning Dynamics without Contrastive Pairs [[Paper](https://arxiv.org/abs/2102.06810)] [[Code](https://github.com/facebookresearch/luckmatters/tree/master/ssl)] [[Link](https://zhuanlan.zhihu.com/p/384818506)]
 - [ ] CVPR'21 Understanding the Behaviour of Contrastive Loss [[Paper](https://arxiv.org/pdf/2012.09740.pdf)] [Code] [[Link](https://zhuanlan.zhihu.com/p/357071960)]
@@ -131,6 +132,7 @@ Updating~
 - [ ] MoCo v3: An Empirical Study of Training Self-Supervised Vision Transformers [[Paper](https://arxiv.org/abs/2104.02057)] [[Code](https://github.com/facebookresearch/moco-v3)] [Link]
 - [ ] Barlow Twins: Self-Supervised Learning via Redundancy Reduction [[Paper](https://arxiv.org/abs/2103.03230)] [[Code](https://github.com/facebookresearch/barlowtwins)] [Link] 
 - [ ] VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning [[Paper](https://arxiv.org/abs/2105.04906)] [[Code](https://github.com/facebookresearch/vicreg)] [Link]
+- [x] MEC: Self-Supervised Learning via Maximum Entropy Coding [[Paper](https://arxiv.org/abs/2210.11464)] [[Code](https://github.com/xinliu20/mec)] [Link]
 
 #### Natural Language Processing：
 
