@@ -114,14 +114,14 @@ Updating~
 
 
 
-## 9. NLP AND CV
+## 9. NLP And CV And RecSys In Contrastive Learning
 
 #### Computer Vision：
 
 - [ ] InsDis: Unsupervised Feature Learning via Non-Parametric Instance-level Discrimination [[Paper](https://arxiv.org/abs/1805.01978)] [[Code](https://github.com/zhirongw/lemniscate.pytorch)] [Link]
-- [ ] Deep Infomax: Learning deep representations by mutual information estimation and maximization [[Paper](https://arxiv.org/abs/1808.06670)] [Code] [Link]
+- [x] Deep Infomax: Learning deep representations by mutual information estimation and maximization [[Paper](https://arxiv.org/abs/1808.06670)] [Code] [Link]
 - [ ] CPC: Representation Learning with Contrastive Predictive Coding [[Paper](https://arxiv.org/pdf/1807.03748.pdf)] [Code] [Link]
-- [ ] CMC: Contrastive Multiview Coding [[Paper](https://arxiv.org/abs/1906.05849)] [[Code](https://github.com/HobbitLong/CMC)] [Link]
+- [x] CMC: Contrastive Multiview Coding [[Paper](https://arxiv.org/abs/1906.05849)] [[Code](https://github.com/HobbitLong/CMC)] [Link]
 - [ ] InfoMin: What Makes for Good Views for Contrastive Learning? [[Paper](https://arxiv.org/abs/2005.10243)] [[Code](https://github.com/HobbitLong/PyContrast)] [[Link1](https://hobbitlong.github.io/InfoMin/)] [[Link2](https://zhuanlan.zhihu.com/p/150736322)]
 - [ ] Prototypical Contrastive Learning of Unsupervised Representations [[Paper](https://arxiv.org/abs/2005.04966)] [[Code](https://github.com/salesforce/PCL)] [Link]
 - [x] MoCo v1: Momentum Contrast for Unsupervised Visual Representation Learning [[Paper](https://arxiv.org/abs/1911.05722)] [[Code](https://github.com/facebookresearch/moco)] [[Link](./notes/MoCov1.md)]
@@ -130,14 +130,16 @@ Updating~
 - [x] SimCLR v2: Big Self-Supervised Models are Strong Semi-Supervised Learners [[Paper](https://arxiv.org/abs/2006.10029)] [[Code](https://github.com/google-research/simclr)] [[Link](./notes/MoCov2+SimCLRv2.md)]
 - [x] SwAV: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments [[Paper](https://arxiv.org/abs/2006.09882)] [[Code](https://github.com/facebookresearch/swav)] [[Link](./notes/SwAV.md)]
 - [x] BYOL: Bootstrap your own latent: A new approach to self-supervised Learning [[Paper](https://arxiv.org/abs/2006.07733)] [[Code](https://github.com/lucidrains/byol-pytorch)] [[Link](./notes/BGRL.md)]
-- [ ] SimSiam: Exploring Simple Siamese Representation Learning [[Paper](https://arxiv.org/abs/2011.10566)] [[Code](https://github.com/facebookresearch/simsiam)] [Link]
+- [x] SimSiam: Exploring Simple Siamese Representation Learning [[Paper](https://arxiv.org/abs/2011.10566)] [[Code](https://github.com/facebookresearch/simsiam)] [[Link](https://zhuanlan.zhihu.com/p/308159909)]
 - [ ] MoCo v3: An Empirical Study of Training Self-Supervised Vision Transformers [[Paper](https://arxiv.org/abs/2104.02057)] [[Code](https://github.com/facebookresearch/moco-v3)] [Link]
 - [ ] Barlow Twins: Self-Supervised Learning via Redundancy Reduction [[Paper](https://arxiv.org/abs/2103.03230)] [[Code](https://github.com/facebookresearch/barlowtwins)] [Link] 
 - [ ] VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning [[Paper](https://arxiv.org/abs/2105.04906)] [[Code](https://github.com/facebookresearch/vicreg)] [Link]
-- [x] MEC: Self-Supervised Learning via Maximum Entropy Coding [[Paper](https://arxiv.org/abs/2210.11464)] [[Code](https://github.com/xinliu20/mec)] [Link]
+- [x] MEC: Self-Supervised Learning via Maximum Entropy Coding [[Paper](https://arxiv.org/abs/2210.11464)] [[Code](https://github.com/xinliu20/mec)] [[Link](./notes/MEC.md)]
 - [ ] ICCV'21 Weakly Supervised Contrastive Learning [[Paper](https://arxiv.org/abs/2110.04770)] [[Code](https://github.com/kyle-1997/WCL)] [Link]
 - [ ] PMLR'21 Dissecting Supervised Contrastive Learning [[Paper](https://arxiv.org/abs/2102.08817)] [[Code](https://github.com/plus-rkwitt/py_supcon_vs_ce)] [Link]
 - [ ] CVPR'22 Targeted Supervised Contrastive Learning for Long-Tailed Recognition [[Paper](https://arxiv.org/abs/2111.13998)] [[Code](https://github.com/lth14/targeted-supcon)] [Link]
+
+[Paper] [Code] [Link]
 
 #### Natural Language Processing：
 
@@ -145,11 +147,22 @@ Updating~
 
 [Paper] [Code] [Link]
 
+#### Recommender System：
+
+- [ ] SIGIR'22 Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation [[Paper](https://arxiv.org/abs/2112.08679)] [[Code](https://github.com/Coder-Yu/QRec)] [Link]
+- [ ] WWW'22 NCL: Improving Graph Collaborative Filtering with Neighborhood-enriched Contrastive Learning [[Paper](https://arxiv.org/abs/2202.06200)] [[Code](https://github.com/rucaibox/ncl)] [Link]
+- [ ] SIGRI'21 Self-supervised Graph Learning for Recommendation [[Paper](https://arxiv.org/abs/2010.10783)] [[Code](https://github.com/wujcan/SGL-Torch)] [Link]
+- [ ] 
+
+[Paper] [Code] [Link]
 
 
-## 10. Recsys
 
+## 10. RecSys
+
+- [ ] SIGIR'20 LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation [[Paper](https://arxiv.org/abs/2002.02126)] [[Code](https://github.com/gusye1234/LightGCN-PyTorch)] [Link]
 - [ ] KDD'20 Embedding-based Retrieval in Facebook Search [[Paper](https://dl.acm.org/doi/pdf/10.1145/3394486.3403305)] [Code] [[Link](https://www.zhihu.com/question/315120636/answer/1687203383)]
+- [ ] SIGIR‘19 Neural Graph Collaborative Filtering [[Paper](https://arxiv.org/abs/1905.08108)] [[Code](https://github.com/huangtinglin/NGCF-PyTorch)] [Link]
 - [ ] KDD'18 PinSAGE: Graph Convolutional Neural Networks for Web-Scale Recommender Systems [[Paper](https://arxiv.org/abs/1806.01973)] [Code] [[Link](https://zhuanlan.zhihu.com/p/275942839)]
 
 [Paper] [Code] [Link]
@@ -184,6 +197,8 @@ References: https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#c
 - [ ] ICLR'21 ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [[Paper](https://arxiv.org/abs/2010.11929)] [[Code](https://github.com/google-research/vision_transformer)] [Link] 
 - [ ] ICCV'21 Swin Transformer: Hierarchical Vision Transformer using Shifted Windows [[Paper](https://arxiv.org/abs/2103.14030)] [[Code](https://github.com/microsoft/Swin-Transformer)] [Link]
 - [ ] ICCV'20 DETR: End-to-End Object Detection with Transformers [[Paper](https://arxiv.org/abs/2005.12872v3)] [[Code](https://github.com/facebookresearch/detr)] [Link]
+
+[Paper] [Code] [Link]
 
 #### graph: 
 
