@@ -51,7 +51,7 @@ Updating~
 - [ ] AAAI'23 Beyond Smoothing: Unsupervised Graph Representation Learning with Edge Heterophily Discriminating [[Paper](https://arxiv.org/pdf/2211.14065.pdf)] [[Code](https://github.com/yixinliu233/GREET)] [Link]
 - [ ] AAAI'23 **MA-GCL**: Model Augmentation Tricks for Graph Contrastive Learning [[Paper](https://arxiv.org/pdf/2212.07035.pdf)] [[Code](https://github.com/GXM1141/MA-GCL)] [Link]
 - [ ] AAAI'23 **SFA**: Spectral Feature Augmentation for Graph Contrastive Learning and Beyond [[Paper](https://arxiv.org/abs/2212.01026)] [Code] [[Link](https://zhuanlan.zhihu.com/p/589174216)]
-- [ ] AAAI'22 **AFGRL**: Augmentation-Free Self-Supervised Learning on Graphs [[Paper](https://arxiv.org/abs/2112.02472)] [[Code](https://github.com/Namkyeong/AFGRL)] [Link]
+- [x] AAAI'22 **AFGRL**: Augmentation-Free Self-Supervised Learning on Graphs [[Paper](https://arxiv.org/abs/2112.02472)] [[Code](https://github.com/Namkyeong/AFGRL)] [[Link](./notes/afgrl.md)]
 - [x] NIPS'22 **GGD**: Rethinking and Scaling Up Graph Contrastive Learning: An Extremely Efficient Approach with Group Discrimination [[Paper](https://arxiv.org/abs/2206.01535)] [[Code](https://github.com/zyzisastudyreallyhardguy/Graph-Group-Discrimination)] [[Link](./notes/GGD.md)]
 - [x] AAAA'22 **SUGRL**: Simple Unsupervised Graph Representation Learning [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-3999.MoY.pdf)] [[Code](https://github.com/YujieMo/SUGRL)] [[Link1](./notes/SUGRL.md)] [[Link2](https://zhuanlan.zhihu.com/p/493269474)]
 - [ ] TNNLS'22 Prototypical Graph Contrastive Learning [[Paper](https://arxiv.org/abs/2106.09645)] [[Code](https://github.com/ha-lins/PGCL)] [Link] 
