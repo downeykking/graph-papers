@@ -1,6 +1,6 @@
 # graph-papers
 
-Graph, Self-Supervised Learning, Contrastive Learning, RecSys, Transformer Papers Reading Notes.
+Graph Neural Network, Self-Supervised Learning, Contrastive Learning, RecSys, Transformer Papers Reading Notes.
 
 Updating~
 
@@ -70,8 +70,11 @@ Updating~
 
 ### Theories:
 
+- [ ] ICLR'23 A theoretical study of inductive biases in contrastive learning [[Paper](https://openreview.net/forum?id=AuEgNlEAmed)] [Code] [Link] [[OpenReview](https://openreview.net/forum?id=AuEgNlEAmed)]
+- [ ] ICLR'23 Towards the Generalization of Contrastive Self-Supervised Learning [[Paper](https://arxiv.org/abs/2111.00743)] [[Code](https://github.com/huang-research-group/contrastive2021)] [[Link](https://zhuanlan.zhihu.com/p/435175976)] [[OpenReview](https://openreview.net/forum?id=XDJwuEYHhme)]
 - [ ] CVPR'22 Node Representation Learning in Graph via Node-to-Neighbourhood Mutual Information Maximization [[Paper](https://arxiv.org/abs/2203.12265)] [[Code](https://github.com/dongwei156/n2n)] [Link]
 - [x] ECCV'22 Decoupled Contrastive Learning [[Paper](https://arxiv.org/abs/2110.06848)] [Code] [[Link](https://zhuanlan.zhihu.com/p/435349353)]
+- [ ] ICLR'22 Equivariant Contrastive Learning [[Paper](https://arxiv.org/abs/2111.00899)] [[Code](https://github.com/rdangovs/essl)] [[Link](https://zhuanlan.zhihu.com/p/431302624)]
 - [ ] ICLR'21 What Should Not Be Contrastive in Contrastive Learning [[Paper](https://arxiv.org/abs/2008.05659)] [Code] [Link]
 - [ ] ICML'21 Understanding Self-Supervised Learning Dynamics without Contrastive Pairs [[Paper](https://arxiv.org/abs/2102.06810)] [[Code](https://github.com/facebookresearch/luckmatters/tree/master/ssl)] [[Link](https://zhuanlan.zhihu.com/p/384818506)]
 - [ ] CVPR'21 Understanding the Behaviour of Contrastive Loss [[Paper](https://arxiv.org/pdf/2012.09740.pdf)] [Code] [[Link](https://zhuanlan.zhihu.com/p/357071960)]
