@@ -18,8 +18,4 @@ Encoder：两层GCN
 
 ![image-20220927232506633](./typoraimg/image-20220927232506633.png)
 
-![image-20220927232533625](F:\typoraimg\image-20220927232533625.png)
-
-
-
-
+![image-20220927232533625](./typoraimg/image-20220927232533625.png)

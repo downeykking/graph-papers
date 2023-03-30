@@ -30,7 +30,7 @@ Weisfeiler-Lehman测试：
 
 一般地，图中的每个节点都具有特征（attribute）和结构（structure）两种信息，需要从这两方面入手，来计算ID。很自然地，特征信息（attribute）即节点自带的Embedding，而结构信息可以通过节点的邻居来刻画，举个例子，如果两个节点Embedding相同，并且他们连接了Embedding完全相同的邻居，我们是无法区分这两个节点的，因此这两个节点ID相同。由此，可以想到，我们可以通过 hashing 来高效判断是否两个节点ID一致。1维的Weisfeiler-Lehman正是这样做的。如果设 $h_i$ 表示节点 $v_i$ 的特征信息（attribute），那么 Weisfeiler-Leman 算法的更新函数可表示为：
 
-$h_l^{(t)}(v)=\operatorname{HASH}\left(h_{l}^{(t-1)}(v), \mathcal{F}\left\{ h_l^{(t-1)}(u) | u \in N(v)\right\}\right)$
+$h_l^{(t)}(v)=\operatorname{HASH}\left(h_{l}^{(t-1)}(v), \mathcal{F}\left\{h_l^{(t-1)}(u) | u \in N(v)\right\}\right)$
 
 这里的标签可以理解为一维条件下的节点特征。当在某一次迭代过程后如果两个图的节点标签有所不同，则认为这两个图是非同构的。
 
@@ -38,13 +38,14 @@ $h_l^{(t)}(v)=\operatorname{HASH}\left(h_{l}^{(t-1)}(v), \mathcal{F}\left\{ h_l^
 
 因为单层感知机不是单射函数。拼接邻居方式的近似引入了另一层精度损失，因为比如求和，pooling等邻居聚合方式可能作用于不同的邻居集合下而得到相同的结果，所以不管是哪个模型，都没有达到目前Weisfeiler-Leman算法在图同构问题上的能力。
 
-![image-20220920112923755](F:\typoraimg\image-20220920112923755.png)
-
-![image-20220920113903170](F:\typoraimg\image-20220920113903170.png)
+$$
+a_v^{(k)}=\operatorname{AGGREGATE}^{(k)}\left(\left\{h_u^{(k-1)}: u \in \mathcal{N}(v)\right\}\right), \quad h_v^{(k)}=\operatorname{COMBINE}^{(k)}\left(h_v^{(k-1)}, a_v^{(k)}\right)
+$$
+![image-20220920113903170](./typoraimg/image-20220920113903170.png)
 
 对于GNN中的每个节点来说，他们都是通过递归的融合邻居信息来捕获图的结构信息和邻居特征信息，因此每个节点的更新路径是一个树结构，节点位于树根，从叶子节点逐层向上更新Embedding直到根节点。比如在下图中，对于一个两层的图神经网络，节点$B$的更新路径是一个高为2的数，$B$位于树根。更新方向如下箭头方向所示：
 
-![image-20220920113252637](F:\typoraimg\image-20220920113252637.png)
+![image-20220920113252637](./typoraimg/image-20220920113252637.png)
 
 为了分析GNN的表示能力，我们转而研究**什么样的GNN结构能够保证将两个不同的节点投影到不同的Embedding空间中**(即为它们生成不同的Embedding)。直觉上可知，最强大的GNN结构仅会将拥有完全相同子树结构的两个节点投影到相同的Embedding空间(即这两个节点的Embedding相同，他们的邻居的Embedding相同，数量也相同)。因为子树结构可以通过节点递归得定义得到(如上图中$B$的二度子树结构可以定义为$B$的一度子树结构以及一度子树$(A,C,E)$的1度子树结构)，因此我们的分析可以简化为”最强大的GNN结构仅会将拥有完全相同1度邻域的两个节点投影到相同的Embedding空间”。这里1度领域不仅包括节点的1度邻居，也包括节点自身。即为以节点为根，高为1的子树结构。
 
@@ -54,41 +55,39 @@ $h_l^{(t)}(v)=\operatorname{HASH}\left(h_{l}^{(t-1)}(v), \mathcal{F}\left\{ h_l^
 
 所以要想设计一个强大的GNN模型，我们要做到是设计AGGREGATEA、COMBINE以及 READOUT函数使得经过这三个函数映射后不同的multiset能够保持不同，即这些函数都是单射函数(injective function)。为此，作者证明了几个定理：
 
-![image-20220920114429044](F:\typoraimg\image-20220920114429044.png)
+![image-20220920114429044](./typoraimg/image-20220920114429044.png)
 
 ​	存在对于mutilset的单射函数f，使用concat方法为sum时，可以区分X
 
-![image-20220920115728734](F:\typoraimg\image-20220920115728734.png)
+![image-20220920115728734](./typoraimg/image-20220920115728734.png)
 
 ​	存在对于h(c, X)的单射函数，直接将自身与邻接节点进行拼接，可以区分c和X
 
 ​	因此：最终设计的网络满足单射性质：
 
-![image-20220920120150471](F:\typoraimg\image-20220920120150471.png)
+![image-20220920120150471](./typoraimg/image-20220920120150471.png)
 
-![image-20220920224444299](F:\typoraimg\image-20220920224444299.png)
+![image-20220920224444299](./typoraimg/image-20220920224444299.png)
 
 对比GCN和GraphSAGE，回答前面的问题：为什么他们的能力达不到1-WL test
 
-![image-20220920224733967](F:\typoraimg\image-20220920224733967.png)
+![image-20220920224733967](./typoraimg/image-20220920224733967.png)
 
-![image-20220920224922531](F:\typoraimg\image-20220920224922531.png)
-
-
+![image-20220920224922531](./typoraimg/image-20220920224922531.png)
 
 不同聚合方法能力排名：
 
-![image-20220920225117239](F:\typoraimg\image-20220920225117239.png)
+![image-20220920225117239](./typoraimg/image-20220920225117239.png)
 
 Mean或者max-pooling难以识别的结构：
 
-![image-20220920225133536](F:\typoraimg\image-20220920225133536.png)
+![image-20220920225133536](./typoraimg/image-20220920225133536.png)
 
 mean学习的是分布：
 
 考虑$X_1=(S, m)$ and $X_2=(S, k \cdot m)$，mean聚合函数会将这两个multiset聚合得到相同的表示，因此mean聚合函数学习到的是multiset中元素的分布（或者说比例）。
 
-![image-20220920225216855](F:\typoraimg\image-20220920225216855.png)
+![image-20220920225216855](./typoraimg/image-20220920225216855.png)
 
 对于任务来说，如果图中的统计信息和分布信息比精确结构更重要，则mean聚合函数可以有很好的性能。此外，当节点特征多样且很少重复时，mean聚合函数与sum聚合函数性能相当。具有mean聚合函数的GNN对于文章主题分类和社区检测等节点分类任务是有效的，这些任务节点特征丰富，邻域特征的分布为任务提供了强信号。
 
@@ -96,7 +95,7 @@ Max聚合函数学习具有显著元素的set：
 
 上面的图显示max聚合函数将具有相同特性的多个节点视为只有一个节点，也就是将multiset看做set。Max聚合函数既不识别精确结构也不识别分布，然而，它可能适合于识别具有代表性的元素或“骨架”。之前的研究表明，max聚合函数能够识别一个3D点云的骨架，并且对噪声和离群值有一定的健壮性。
 
-![image-20220920225437873](F:\typoraimg\image-20220920225437873.png)
+![image-20220920225437873](./typoraimg/image-20220920225437873.png)
 
 #### 4. Experiments
 
