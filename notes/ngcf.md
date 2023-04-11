@@ -26,6 +26,26 @@ $\mathbf{e}_u^*=\mathbf{e}_u^{(0)}\|\cdots\| \mathbf{e}_u^{(L)}, \quad \mathbf{e
 
 得到了user，item的embedding
 
-#### 
 
 
+## LightGCN
+
+NGCF去掉线性层和激活函数：
+
+$$
+\begin{aligned}
+\mathbf{e}_u^{(k+1)} & =\sum_{i \in \mathcal{N}_u} \frac{1}{\sqrt{\left|\mathcal{N}_u\right|} \sqrt{\left|\mathcal{N}_i\right|}} \mathbf{e}_i^{(k)}, \\
+\mathbf{e}_i^{(k+1)} & =\sum_{u \in \mathcal{N}_i} \frac{1}{\sqrt{\left|\mathcal{N}_i\right|} \sqrt{\left|\mathcal{N}_u\right|}} \mathbf{e}_u^{(k)} .
+\end{aligned}
+$$
+
+$$
+\mathbf{E}^{(k+1)}=\left(\mathbf{D}^{-\frac{1}{2}} \mathbf{A} \mathbf{D}^{-\frac{1}{2}}\right) \mathbf{E}^{(k)}
+$$
+
+$$
+\begin{aligned}
+\mathbf{E} & =\alpha_0 \mathbf{E}^{(0)}+\alpha_1 \mathbf{E}^{(1)}+\alpha_2 \mathbf{E}^{(2)}+\ldots+\alpha_K \mathbf{E}^{(K)} \\
+& =\alpha_0 \mathbf{E}^{(0)}+\alpha_1 \tilde{\mathbf{A}} \mathbf{E}^{(0)}+\alpha_2 \tilde{\mathbf{A}}^2 \mathbf{E}^{(0)}+\ldots+\alpha_K \tilde{\mathbf{A}}^K \mathbf{E}^{(0)},
+\end{aligned}
+$$
