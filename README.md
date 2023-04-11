@@ -165,7 +165,7 @@ Updating~
 
 - [ ] SIGIR'20 **LightGCN**: Simplifying and Powering Graph Convolution Network for Recommendation [[Paper](https://arxiv.org/abs/2002.02126)] [[Code](https://github.com/gusye1234/LightGCN-PyTorch)] [Link]
 - [ ] KDD'20 Embedding-based Retrieval in Facebook Search [[Paper](https://dl.acm.org/doi/pdf/10.1145/3394486.3403305)] [Code] [[Link](https://www.zhihu.com/question/315120636/answer/1687203383)]
-- [ ] SIGIR‘19 **NGCF**: Neural Graph Collaborative Filtering [[Paper](https://arxiv.org/abs/1905.08108)] [[Code](https://github.com/huangtinglin/NGCF-PyTorch)] [Link]
+- [ ] SIGIR‘19 **NGCF**: Neural Graph Collaborative Filtering [[Paper](https://arxiv.org/abs/1905.08108)] [[Code](https://github.com/huangtinglin/NGCF-PyTorch)] [[Link](./notes/ngcf.md)]
 - [ ] KDD'18 PinSAGE: Graph Convolutional Neural Networks for Web-Scale Recommender Systems [[Paper](https://arxiv.org/abs/1806.01973)] [Code] [[Link](https://zhuanlan.zhihu.com/p/275942839)]
 
 [Paper] [Code] [Link]
