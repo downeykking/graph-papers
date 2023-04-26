@@ -154,8 +154,8 @@ Updating~
 #### Recommender System：
 
 - [ ] SIGIR'22 Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation [[Paper](https://arxiv.org/abs/2112.08679)] [[Code](https://github.com/Coder-Yu/QRec)] [Link]
-- [ ] WWW'22 **NCL**: Improving Graph Collaborative Filtering with Neighborhood-enriched Contrastive Learning [[Paper](https://arxiv.org/abs/2202.06200)] [[Code](https://github.com/rucaibox/ncl)] [Link]
-- [ ] SIGRI'21 **SGL**: Self-supervised Graph Learning for Recommendation [[Paper](https://arxiv.org/abs/2010.10783)] [[Code](https://github.com/wujcan/SGL-Torch)] [[Link](./notes/sgl.md)]
+- [x] WWW'22 **NCL**: Improving Graph Collaborative Filtering with Neighborhood-enriched Contrastive Learning [[Paper](https://arxiv.org/abs/2202.06200)] [[Code](https://github.com/rucaibox/ncl)] [[Link](./notes/ncl.md)]
+- [x] SIGRI'21 **SGL**: Self-supervised Graph Learning for Recommendation [[Paper](https://arxiv.org/abs/2010.10783)] [[Code](https://github.com/wujcan/SGL-Torch)] [[Link](./notes/sgl.md)]
 
 [Paper] [Code] [Link]
 
