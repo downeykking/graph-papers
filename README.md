@@ -47,7 +47,7 @@ Updating~
 
 #### Methods
 
-- [ ] ICLR'23 Link Prediction with Non-Contrastive Learning [[Paper](https://arxiv.org/abs/2211.14394)] [[Code](https://github.com/snap-research/non-contrastive-link-prediction)] [Link]
+- [x] ICLR'23 Link Prediction with Non-Contrastive Learning [[Paper](https://arxiv.org/abs/2211.14394)] [[Code](https://github.com/snap-research/non-contrastive-link-prediction)] [Link]
 - [ ] AAAI'23 Beyond Smoothing: Unsupervised Graph Representation Learning with Edge Heterophily Discriminating [[Paper](https://arxiv.org/pdf/2211.14065.pdf)] [[Code](https://github.com/yixinliu233/GREET)] [Link]
 - [ ] AAAI'23 **MA-GCL**: Model Augmentation Tricks for Graph Contrastive Learning [[Paper](https://arxiv.org/pdf/2212.07035.pdf)] [[Code](https://github.com/GXM1141/MA-GCL)] [Link]
 - [ ] AAAI'23 **SFA**: Spectral Feature Augmentation for Graph Contrastive Learning and Beyond [[Paper](https://arxiv.org/abs/2212.01026)] [Code] [[Link](https://zhuanlan.zhihu.com/p/589174216)]
@@ -163,9 +163,11 @@ Updating~
 
 ## 10. RecSys
 
-- [ ] SIGIR'20 **LightGCN**: Simplifying and Powering Graph Convolution Network for Recommendation [[Paper](https://arxiv.org/abs/2002.02126)] [[Code](https://github.com/gusye1234/LightGCN-PyTorch)] [Link]
+- [ ] SDM'22 Localized Graph Collaborative Filtering [[Paper](https://arxiv.org/pdf/2108.04475.pdf)] [Code] [[Link](https://zhuanlan.zhihu.com/p/467699545?utm_id=0)]
+- [ ] CIKM'21 **UltraGCN**: Ultra Simplification of Graph Convolutional Networks for Recommendation [[Paper](https://arxiv.org/abs/2110.15114)] [[Code](https://github.com/xue-pai/UltraGCN)] [[Link](https://zhuanlan.zhihu.com/p/436243136)]
+- [x] SIGIR'20 **LightGCN**: Simplifying and Powering Graph Convolution Network for Recommendation [[Paper](https://arxiv.org/abs/2002.02126)] [[Code](https://github.com/gusye1234/LightGCN-PyTorch)] [Link]
 - [ ] KDD'20 Embedding-based Retrieval in Facebook Search [[Paper](https://dl.acm.org/doi/pdf/10.1145/3394486.3403305)] [Code] [[Link](https://www.zhihu.com/question/315120636/answer/1687203383)]
-- [ ] SIGIR‘19 **NGCF**: Neural Graph Collaborative Filtering [[Paper](https://arxiv.org/abs/1905.08108)] [[Code](https://github.com/huangtinglin/NGCF-PyTorch)] [[Link](./notes/ngcf.md)]
+- [x] SIGIR‘19 **NGCF**: Neural Graph Collaborative Filtering [[Paper](https://arxiv.org/abs/1905.08108)] [[Code](https://github.com/huangtinglin/NGCF-PyTorch)] [[Link](./notes/ngcf.md)]
 - [ ] KDD'18 PinSAGE: Graph Convolutional Neural Networks for Web-Scale Recommender Systems [[Paper](https://arxiv.org/abs/1806.01973)] [Code] [[Link](https://zhuanlan.zhihu.com/p/275942839)]
 
 [Paper] [Code] [Link]
