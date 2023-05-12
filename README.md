@@ -110,7 +110,16 @@ Updating~
 
 
 
-## 8. Graph Anomaly Detection
+## 8. Heterophonic Graph （Heterophily）
+
+- [ ] NIPS'22 Revisiting Heterophily For Graph Neural Networks [[Paper](https://arxiv.org/abs/2210.07606)] [[Code](https://github.com/SitaoLuan/ACM-GNN)] [Link]
+
+
+[Paper] [Code] [Link]
+
+
+
+## 9. Graph Anomaly Detection
 
 - [ ] ICML'22 Rethinking Graph Neural Networks for Anomaly Detection [[Paper](https://arxiv.org/abs/2205.15508)] [[Code](https://github.com/squareroot3/rethinking-anomaly-detection)] [Link]
 
@@ -118,7 +127,7 @@ Updating~
 
 
 
-## 9. NLP And CV And RecSys In Contrastive Learning
+## 10. NLP And CV And RecSys In Contrastive Learning
 
 #### Computer Vision：
 
@@ -161,10 +170,10 @@ Updating~
 
 
 
-## 10. RecSys
+## 11. RecSys
 
 - [ ] SDM'22 Localized Graph Collaborative Filtering [[Paper](https://arxiv.org/pdf/2108.04475.pdf)] [Code] [[Link](https://zhuanlan.zhihu.com/p/467699545?utm_id=0)]
-- [ ] CIKM'21 **UltraGCN**: Ultra Simplification of Graph Convolutional Networks for Recommendation [[Paper](https://arxiv.org/abs/2110.15114)] [[Code](https://github.com/xue-pai/UltraGCN)] [[Link](https://zhuanlan.zhihu.com/p/436243136)]
+- [ ] CIKM'21 **UltraGCN**: Ultra Simplification of Graph Convolutional Networks for Recommendation [[Paper](https://arxiv.org/abs/2110.15114)] [[Code](https://github.com/xue-pai/UltraGCN)] [[Link1](./notes/ultragcn)] [[Link2](https://zhuanlan.zhihu.com/p/436243136)]
 - [x] SIGIR'20 **LightGCN**: Simplifying and Powering Graph Convolution Network for Recommendation [[Paper](https://arxiv.org/abs/2002.02126)] [[Code](https://github.com/gusye1234/LightGCN-PyTorch)] [Link]
 - [ ] KDD'20 Embedding-based Retrieval in Facebook Search [[Paper](https://dl.acm.org/doi/pdf/10.1145/3394486.3403305)] [Code] [[Link](https://www.zhihu.com/question/315120636/answer/1687203383)]
 - [x] SIGIR‘19 **NGCF**: Neural Graph Collaborative Filtering [[Paper](https://arxiv.org/abs/1905.08108)] [[Code](https://github.com/huangtinglin/NGCF-PyTorch)] [[Link](./notes/ngcf.md)]
@@ -174,7 +183,7 @@ Updating~
 
 
 
-## 11. Graph Model
+## 12. Graph Model
 
 References: https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#convolutional-layers
 
@@ -190,7 +199,7 @@ References: https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#c
 
 
 
-## 12. Transformer
+## 13. Transformer
 
 #### nlp:
 
