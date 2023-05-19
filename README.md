@@ -162,9 +162,13 @@ Updating~
 
 #### Recommender System：
 
-- [x] SIGIR'22 Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation [[Paper](https://arxiv.org/abs/2112.08679)] [[Code](https://github.com/Coder-Yu/QRec)] [[Link](./notes/simgcl.md)]
+- [ ] WSDM'23 Heterogeneous Graph Contrastive Learning for Recommendation [[Paper](https://arxiv.org/abs/2303.00995)] [[Code](https://github.com/hkuds/hgcl)] [Link]
+- [x] SIGIR'22 **SimGCL**: Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation [[Paper](https://arxiv.org/abs/2112.08679)] [[Code](https://github.com/Coder-Yu/QRec)] [[Link](./notes/simgcl.md)]
 - [x] WWW'22 **NCL**: Improving Graph Collaborative Filtering with Neighborhood-enriched Contrastive Learning [[Paper](https://arxiv.org/abs/2202.06200)] [[Code](https://github.com/rucaibox/ncl)] [[Link](./notes/ncl.md)]
-- [x] SIGRI'21 **SGL**: Self-supervised Graph Learning for Recommendation [[Paper](https://arxiv.org/abs/2010.10783)] [[Code](https://github.com/wujcan/SGL-Torch)] [[Link](./notes/sgl.md)]
+- [ ] KDD'22 **DirectAU**: Towards Representation Alignment and Uniformity in Collaborative Filtering [[Paper](https://arxiv.org/abs/2206.12811)] [[Code](https://github.com/thuwangcy/directau)] [Link]
+- [x] SIGIR'21 **SGL**: Self-supervised Graph Learning for Recommendation [[Paper](https://arxiv.org/abs/2010.10783)] [[Code](https://github.com/wujcan/SGL-Torch)] [[Link](./notes/sgl.md)]
+- [ ] SIGIR'21 Bootstrapping User and Item Representations for One-Class Collaborative Filtering [[Paper](https://arxiv.org/abs/2105.06323)] [Code] [Link]
+- [ ] KDD'21 MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Huang-et-al-MixGCF.pdf)] [[Code](https://github.com/huangtinglin/MixGCF)] [Link]
 
 [Paper] [Code] [Link]
 
