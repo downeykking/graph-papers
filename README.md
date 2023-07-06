@@ -47,6 +47,7 @@ Updating~
 
 #### Methods
 
+- [ ] ICLR'23 A Message Passing Perspective on Learning Dynamics of Contrastive Learning [[Paper](https://openreview.net/pdf?id=VBTJqqWjxMv)] [[Code](https://github.com/PKU-ML/Message-Passing-Contrastive-Learning)] [[Link](https://openreview.net/forum?id=VBTJqqWjxMv)]
 - [x] ICLR'23 Link Prediction with Non-Contrastive Learning [[Paper](https://arxiv.org/abs/2211.14394)] [[Code](https://github.com/snap-research/non-contrastive-link-prediction)] [Link]
 - [ ] AAAI'23 Beyond Smoothing: Unsupervised Graph Representation Learning with Edge Heterophily Discriminating [[Paper](https://arxiv.org/pdf/2211.14065.pdf)] [[Code](https://github.com/yixinliu233/GREET)] [Link]
 - [ ] AAAI'23 **MA-GCL**: Model Augmentation Tricks for Graph Contrastive Learning [[Paper](https://arxiv.org/pdf/2212.07035.pdf)] [[Code](https://github.com/GXM1141/MA-GCL)] [Link]
@@ -87,7 +88,7 @@ Updating~
 ## 5. Self-Supervised Learning -- Generative
 
 - [x] KDD'22 **GraphMAE**: Self-Supervised Masked Graph Autoencoders [[Paper](https://arxiv.org/abs/2205.10803)] [[Code](https://github.com/thudm/graphmae)] [[Link](./notes/graphmae.md)]
-- [ ] arXiv'22 **MaskGAE**: Masked Graph Modeling Meets Graph Autoencoders [[Paper](https://arxiv.org/abs/2205.10053)] [[Code](https://github.com/EdisonLeeeee/MaskGAE)] [Link]
+- [x] arXiv'22 **MaskGAE**: Masked Graph Modeling Meets Graph Autoencoders [[Paper](https://arxiv.org/abs/2205.10053)] [[Code](https://github.com/EdisonLeeeee/MaskGAE)] [[Link](./notes/maskgae.md)]
 
 [Paper] [Code] [Link]
 
