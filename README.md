@@ -107,16 +107,18 @@ Updating~
 
 - [ ] WWW'20 Heterogeneous Graph Transformer [[Paper](https://arxiv.org/abs/2003.01332)] [[Code](https://github.com/acbull/pyHGT)] [Link]
 
-[Paper] [Code] [Link]
+[[Paper](https://www.ijcai.org/proceedings/2022/0310.pdf)] [Code] [Link]
 
 
 
 ## 8. Heterophonic Graph （Heterophily）
 
 - [ ] NIPS'22 Revisiting Heterophily For Graph Neural Networks [[Paper](https://arxiv.org/abs/2210.07606)] [[Code](https://github.com/SitaoLuan/ACM-GNN)] [Link]
-
+- [x] IJCAI'22 Beyond Homophily: Structure-aware Path Aggregation Graph Neural Network [[Paper](https://www.ijcai.org/proceedings/2022/0310.pdf)] [[Code](https://github.com/zjunet/PathNet)] [[Link](./notes/pathgnn.md)]
 
 [Paper] [Code] [Link]
+
+
 
 
 
