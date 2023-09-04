@@ -154,6 +154,7 @@ Updating~
 - [ ] ICCV'21 Weakly Supervised Contrastive Learning [[Paper](https://arxiv.org/abs/2110.04770)] [[Code](https://github.com/kyle-1997/WCL)] [Link]
 - [ ] PMLR'21 Dissecting Supervised Contrastive Learning [[Paper](https://arxiv.org/abs/2102.08817)] [[Code](https://github.com/plus-rkwitt/py_supcon_vs_ce)] [Link]
 - [ ] CVPR'22 Targeted Supervised Contrastive Learning for Long-Tailed Recognition [[Paper](https://arxiv.org/abs/2111.13998)] [[Code](https://github.com/lth14/targeted-supcon)] [Link]
+- [ ] ArXiv'23 EMP-SSL: Towards Self-Supervised Learning in One Training Epoch [[Paper](https://arxiv.org/pdf/2304.03977.pdf)] [[Code](https://github.com/tsb0601/emp-ssl)] [[Link](https://zhuanlan.zhihu.com/p/647392580)]
 
 [Paper] [Code] [Link]
 
