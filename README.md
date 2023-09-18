@@ -1,3 +1,5 @@
+
+
 # graph-papers
 
 Graph Neural Network, Self-Supervised Learning, Contrastive Learning, RecSys, Transformer Papers Reading Notes.
@@ -179,6 +181,17 @@ Updating~
 
 
 ## 11. RecSys
+
+#### Cross Domain
+
+- [ ] WWW'23 Cross-domain recommendation via user interest alignment [[Paper](https://arxiv.org/abs/2301.11467)] [Code] [Link]
+- [ ] WSDM'23 One for All, All for One: Learning and Transferring User Embeddings for Cross-Domain Recommendation [[Paper](https://arxiv.org/abs/2211.11964)] [[Code](https://github.com/chain123/cat-art)] [Link]
+
+- [ ] WSDM'22 RecGURU: Adversarial Learning of Generalized User Representations for Cross-Domain Recommendation [[Paper](https://arxiv.org/abs/2111.10093)] [[Code](https://github.com/Chain123/RecGURU)] [Link]
+
+
+
+
 
 - [ ] SDM'22 Localized Graph Collaborative Filtering [[Paper](https://arxiv.org/pdf/2108.04475.pdf)] [Code] [[Link](https://zhuanlan.zhihu.com/p/467699545?utm_id=0)]
 - [x] CIKM'21 **UltraGCN**: Ultra Simplification of Graph Convolutional Networks for Recommendation [[Paper](https://arxiv.org/abs/2110.15114)] [[Code](https://github.com/xue-pai/UltraGCN)] [[Link1](./notes/ultragcn.md)] [[Link2](https://zhuanlan.zhihu.com/p/436243136)]
