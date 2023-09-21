@@ -10,6 +10,8 @@ Updating~
 
 ## 1. Survey or Benchmark
 
+- [ ] arXiv'22 A Survey on Cross-domain Recommendation: Taxonomies, Methods, and Future Directions [[Paper](https://arxiv.org/abs/2108.03357)] [Code] [Link]
+- [ ] arXiv'21 Cross-Domain Recommendation: Challenges, Progress, and Prospects [[Paper](https://arxiv.org/abs/2103.01696)] [Code] [Link]
 - [ ] TKDE'22 Self-Supervised Learning for Recommender Systems: A Survey [[Paper](https://arxiv.org/abs/2203.15876)] [Code] [Link]
 - [x] TKDE'22 Graph Self-Supervised Learning: A Survey [[Paper](https://arxiv.org/abs/2103.00111)] [Code] [Link]
 - [x] TKDE'21 Self-supervised Learning on Graphs: Contrastive, Generative,or Predictive [[Paper](https://arxiv.org/abs/2105.07342)] [Code] [Link]
@@ -186,7 +188,6 @@ Updating~
 
 - [ ] WWW'23 Cross-domain recommendation via user interest alignment [[Paper](https://arxiv.org/abs/2301.11467)] [Code] [Link]
 - [ ] WSDM'23 One for All, All for One: Learning and Transferring User Embeddings for Cross-Domain Recommendation [[Paper](https://arxiv.org/abs/2211.11964)] [[Code](https://github.com/chain123/cat-art)] [Link]
-
 - [ ] WSDM'22 RecGURU: Adversarial Learning of Generalized User Representations for Cross-Domain Recommendation [[Paper](https://arxiv.org/abs/2111.10093)] [[Code](https://github.com/Chain123/RecGURU)] [Link]
 
 
