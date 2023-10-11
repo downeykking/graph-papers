@@ -51,6 +51,8 @@ Updating~
 
 #### Methods
 
+- [ ] ICML'23 Disentangled Multiplex Graph Representation Learning [[Paper](https://openreview.net/pdf?id=lYZOjMvxws)] [[Code](https://github.com/YujieMo/DMG)] [[Link](https://mp.weixin.qq.com/s/S7dcyJbgYby1zv1x2HSBCQ)]
+- [ ] AAAA'23 Multiplex Graph Representation Learning via Common and Private Information Mining [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/26105)] [Code] [[Link](https://yujiemo.github.io/)]
 - [ ] ICLR'23 A Message Passing Perspective on Learning Dynamics of Contrastive Learning [[Paper](https://openreview.net/pdf?id=VBTJqqWjxMv)] [[Code](https://github.com/PKU-ML/Message-Passing-Contrastive-Learning)] [[Link](https://openreview.net/forum?id=VBTJqqWjxMv)]
 - [x] ICLR'23 Link Prediction with Non-Contrastive Learning [[Paper](https://arxiv.org/abs/2211.14394)] [[Code](https://github.com/snap-research/non-contrastive-link-prediction)] [Link]
 - [ ] AAAI'23 Beyond Smoothing: Unsupervised Graph Representation Learning with Edge Heterophily Discriminating [[Paper](https://arxiv.org/pdf/2211.14065.pdf)] [[Code](https://github.com/yixinliu233/GREET)] [Link]
